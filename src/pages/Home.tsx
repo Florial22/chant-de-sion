@@ -1,110 +1,108 @@
-// src/pages/Home.tsx
 import { useMemo } from "react";
-import SongCard from "../components/SongCard";
-import SafeResultCard from "../components/SafeResultCard";
-import TinyBoundary from "../components/TinyBoundary";
-import LanguageChips from "../components/LanguageChips";
-import { useFavorites } from "../store/favorites";
-import { useSearch, useSearchResults } from "../store/search";
 import { useLibrary } from "../store/library";
+import SongCard from "../components/SongCard";
+import type { Song } from "../types/song";
+import { readStats, scoreSong, mulberry32, dailySeed } from "../lib/engagement";
 
-function pickEight<T>(arr: T[]): T[] {
-  const a = arr.slice();
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
+// Try to read favorites from local storage without coupling to store internals
+function readFavoriteSet(): Set<string> {
+  const candidates = [
+    "cds:favorites:v1",
+    "cds:favorites",
+    "favorites",
+    "cds:fav:v1",
+  ];
+  for (const k of candidates) {
+    try {
+      const raw = localStorage.getItem(k);
+      if (!raw) continue;
+      const arr = JSON.parse(raw);
+      if (Array.isArray(arr)) return new Set<string>(arr);
+      if (arr && typeof arr === "object" && Array.isArray(arr.ids)) {
+        return new Set<string>(arr.ids);
+      }
+    } catch {}
   }
-  return a.slice(0, 8);
+  return new Set<string>();
 }
 
 export default function Home() {
-  const { ids: favIds } = useFavorites();
-  const { query } = useSearch();
-  const { songs, status } = useLibrary();
-  const rawResults = useSearchResults(query);
+  const { songs, status, error } = useLibrary();
 
-  const hasQuery = (query ?? "").trim().length > 0;
+  const display = useMemo(() => {
+    const TAKE = 8;
+    const list = Array.isArray(songs) ? songs : [];
+    if (list.length === 0) return [] as Song[];
 
-  // Safe results (defensive filter)
-  const results = useMemo(
-    () =>
-      (Array.isArray(rawResults) ? rawResults : []).filter(
-        (h) =>
-          h &&
-          h.song &&
-          typeof h.song.id === "string" &&
-          h.song.id.trim().length > 0
-      ),
-    [rawResults]
-  );
+    const stats = readStats();
+    const favs = readFavoriteSet();
 
-  // Favorites from the loaded library
-  const favSongs = useMemo(
-    () => songs.filter((s) => favIds.includes(s.id)),
-    [songs, favIds]
-  );
+    // If no engagement at all, show popular or random (first-run)
+    const hasAnyHistory = Object.keys(stats).length > 0 || favs.size > 0;
+    if (!hasAnyHistory) {
+      const popular = list.filter((s) => s.popular === true).slice(0, TAKE);
+      if (popular.length > 0) return popular;
+      // random 8 using daily seed so it changes once per day
+      const rng = mulberry32(dailySeed());
+      const arr = [...list];
+      for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(rng() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+      }
+      return arr.slice(0, TAKE);
+    }
 
-  // Show up to 8 favorites; if none, show 8 random suggestions from the library
-  const items = useMemo(() => {
-    if (favSongs.length > 0) return favSongs.slice(0, 8);
-    return pickEight(songs);
-  }, [favSongs, songs]);
+    // 1) Score all songs
+    const scored = list.map((song) => ({
+      song,
+      score: scoreSong(song, stats[song.id], favs.has(song.id)),
+    }));
+
+    // 2) Top 5 by score
+    scored.sort((a, b) => b.score - a.score);
+    const top5 = scored.slice(0, 5).map((x) => x.song);
+    const topIds = new Set(top5.map((s) => s.id));
+
+    // 3) Fresh daily picks (3) from remaining pool, seeded by date
+    const pool = scored
+      .filter((x) => !topIds.has(x.song.id))
+      .map((x) => x.song);
+
+    const rng = mulberry32(dailySeed());
+    for (let i = pool.length - 1; i > 0; i--) {
+      const j = Math.floor(rng() * (i + 1));
+      [pool[i], pool[j]] = [pool[j], pool[i]];
+    }
+    const fresh3 = pool.slice(0, Math.max(0, 8 - top5.length));
+
+    return [...top5, ...fresh3].slice(0, TAKE);
+  }, [songs]);
 
   if (status === "loading") {
-    return (
-      <div
-        className="px-4"
-        style={{ paddingBottom: "calc(64px + var(--safe-bottom))" }}
-      >
-        <h2 className="text-sm font-medium mb-2" style={{ color: "#000" }}>
-          Chargement des chants…
-        </h2>
-      </div>
-    );
+    return <div className="safe-top px-4 py-6">Chargement…</div>;
   }
-
-  if (hasQuery) {
+  if (status === "error") {
     return (
-      <div
-        className="px-4"
-        style={{ paddingBottom: "calc(64px + var(--safe-bottom))" }}
-      >
-        <h2 className="text-sm font-medium mb-2" style={{ color: "#000" }}>
-          Résultats
-        </h2>
-        <LanguageChips />
-        {results.length === 0 ? (
-          <p className="text-black/70">Aucun résultat. Essayez d’autres mots.</p>
-        ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {results.map((hit, idx) => {
-              const safeKey = hit?.song?.id || `hit-${idx}`;
-              return (
-                <TinyBoundary key={safeKey}>
-                  <SafeResultCard hit={hit} />
-                </TinyBoundary>
-              );
-            })}
-          </div>
-        )}
+      <div className="safe-top px-4 py-6">
+        <p className="mb-2">Erreur de chargement.</p>
+        <pre className="text-xs text-black/70 bg-white/70 p-2 rounded border border-black/10">
+          {String(error || "Inconnue")}
+        </pre>
       </div>
     );
   }
 
   return (
-    <div
-      className="px-4"
-      style={{ paddingBottom: "calc(64px + var(--safe-bottom))" }}
-    >
-      <h2 className="text-sm font-medium mb-2" style={{ color: "#000" }}>
-        {favSongs.length > 0 ? "Vos favoris" : "Suggestions"}
-      </h2>
-
+    <div className="safe-top px-4 py-4" style={{ background: "#e2eee4" }}>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-        {items.map((song) => (
+        {display.map((song) => (
           <SongCard key={song.id} song={song} />
         ))}
       </div>
+
+      {display.length === 0 && (
+        <p className="mt-4 text-sm text-black/60">Aucun chant trouvé.</p>
+      )}
     </div>
   );
 }

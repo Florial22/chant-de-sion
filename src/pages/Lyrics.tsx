@@ -8,6 +8,8 @@ import FavoriteButton from "../components/FavoriteButton";
 import { useSettings } from "../store/settings";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { pickTitle } from "../lib/pickTitle";
+import { bumpView, addDwell } from "../lib/engagement";
+
 
 
 
@@ -138,6 +140,19 @@ const song = useMemo(() => songs.find((s) => s.id === id), [songs, id]);
     const next = order[(at + 1) % order.length];
     switchLang(next);
   }
+
+  // --- Engagement tracking
+  // bump views on open and record dwell time on leave
+    useEffect(() => {
+      if (!song?.id) return;
+      bumpView(song.id);
+      const start = Date.now();
+      return () => {
+        const sec = (Date.now() - start) / 1000;
+        if (sec >= 5) addDwell(song.id, sec);
+      };
+    }, [song?.id]);
+
 
   // --- Presentation Mode (unchanged core)
   const [isPresenting, setIsPresenting] = useState(false);

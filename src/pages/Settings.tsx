@@ -57,6 +57,12 @@ export default function Settings() {
           La lecture mémorise la taille actuelle (A+/A−). Réinitialiser pour appliquer la valeur par défaut au prochain chant.
         </p>
       </section>
+      <div className="mt-6 rounded-2xl border border-black/10 bg-white p-4 shadow-sm">
+        <div className="text-sm text-black/60">Version de l’app</div>
+        <div className="mt-1 font-medium" style={{ color: "#000" }}>
+          v{__APP_VERSION__}
+        </div>
+      </div>
     </div>
   );
 }

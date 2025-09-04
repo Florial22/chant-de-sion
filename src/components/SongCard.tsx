@@ -52,7 +52,7 @@ export default function SongCard({ song, langPref = "any" }: Props) {
         to={`/song/${song.id}`}
         className="block rounded-2xl border border-black/10 bg-white p-4 shadow-sm hover:shadow-md transition"
       >
-        <h3 className="font-semibold mb-1" style={{ color: "#000" }}>{title}</h3>
+        <h3 className="font-semibold mb-1" style={{ color: "#417956" }}>{title}</h3>
         <p className="text-sm text-black/70 line-clamp-2">{snippet}</p>
       </Link>
 

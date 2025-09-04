@@ -38,7 +38,8 @@
       "text": "There are mountains yet to climb\nBefore this place in you I’ll find\nAnd I’m sure that many trials\nI’ll go through\nBut each test I overcome\nWill make me more like your dear son,\nAnd help me reach that I’m place\nI’m longing for in you",
       "n": 3
     }
-  ]
+  ],
+  "popular": false
 },
 {
   "id": "s-above-every-name",
@@ -91,7 +92,8 @@
       "text": "Lè-m kanpe devan twòn de gras li\nPou-m priye nan nom mèvèye sa\nZanj yo renmen tande-l\nSatan kouri pou li\nNom-k plen ak pouvwa e viktwa.",
       "n": 2
     }
-  ]
+  ],
+  "popular": true
 },
 {
   "id": "s-alive-alive",
@@ -108,7 +110,8 @@
       "lang": "en",
       "text": "Alive, alive, alive forevermore\nMy Jesus is alive, alive forevermore\nAlive, alive, alive forevermore\nMy Jesus is alive.\nSing hallelujah, sing hallelujah\nMy Jesus is alive forever more\nSing hallelujah, sing hallelujah\nMy Jesus is alive."
     }
-  ]
+  ],
+  "popular": false
 },
 {
   "id": "s-all-these-times",
@@ -147,7 +150,8 @@
       "lang": "en",
       "text": "Tout tan sa w’ap aji an favè mwen\nTout tan sa w’ap entèsede pou mwen\nTout tan sa ou sèlman la\nW’ap pran swen mwen\nJezi mwen vle pran tan sa\nPou-m di-w mèsi Senyè."
     }
-  ]
+  ],
+  "popular": true
 },
 {
   "id": "s-aren-t-you-glad",
@@ -172,7 +176,8 @@
       "lang": "en",
       "text": "Aren’t you glad that Jesus remenberded you ?\nAren’t you glad that\nJesus brought you to the truth?\nBrought you to the body of which he is the head\nBrought you to the living\nOut from among the dead. "
     }
-  ]
+  ],
+  "popular": false
 },
 {
   "id": "s-1glad",
@@ -204,7 +209,8 @@
       "lang": "ht",
       "text": "M’kontan Kris te met men-l sou mwen\nM’kontan Kris te met men-l sou mwen\nMwen te avèg, kounye a mwen wè\nDepi Jezi te met men-l sou mwen."
     }
-  ]
+  ],
+  "popular": false
 }
 ,
 
@@ -240,7 +246,8 @@
       "text": "Have you been wondering why you’re alone?\nDoes God seem far away, you doubt his love\nNow Christ is at the door\nHe sees a heart that’s torn\nHis blood was shed for you, to give you life a new",
       "n": 2
     }
-  ]
+  ],
+  "popular": false
 }
 ,
 {
@@ -272,7 +279,8 @@
       "lang": "en",
       "text": "If not for grace my soul would be a drifting ship\nWith no safe harbor from the angry waves\nBut calvary’s cross shines brightly\nThrough the darkest storm\nAnd just in time his mercy rescues me."
     }
-  ]
+  ],
+  "popular": false
 },
 {
   "id": "s-as-the-deer7484",
@@ -310,7 +318,8 @@
       "lang": "en",
       "text": "Only you loved me so\nSo much I can’t understand\nOnly you are there in the darkest night\nEven in the deepest sea you’re there\nYour great love help me to hold on."
     }
-  ]
+  ], 
+  "popular": false
 },
 {
   "id": "s-because-he-lives8494",
@@ -334,7 +343,8 @@
       "lang": "en",
       "text": "Because he lives I can face tomorrow\nBecause he lives all fear is gone\nBecause I know he holds the future\nAnd life is worth the living just because He lives"
     }
-  ]
+  ],
+  "popular": false
 },
 {
   "id": "s-behold-the-lamb8494",
@@ -358,7 +368,8 @@
       "lang": "en",
       "text": "Crown him, crown him\nworthy is the lamb\nPraise him, praise him\nHeaven and earth bless him."
     }
-  ]
+  ],
+  "popular": false
 },
 {
   "id": "s-kanaan-land3444",
@@ -411,7 +422,8 @@
       "lang": "ht",
       "text": "Ke-n mache nan vale, ke-n monte mòn byen wo\nNou pa dwe sispann batay\nNou dwe fè kou Moyiz, ann kriye an avan\nKanaan la devan nou."
     }
-  ]
+  ],
+  "popular": false
 },
 
 {
@@ -439,7 +451,8 @@
       "lang": "ht",
       "text": "Chanje mwen Senyè, chanje mwen\nLespri sen anvayi kò sa\nChanje mwen\nM’pa bezwen konnen sa mwen va fè\nTransfòme anndan mwen\nFè-m mache nan volonte-w\nChanje mwen."
     }
-  ]
+  ],
+  "popular": true
 },
 {
   "id": "s-cgise74838933",
@@ -481,7 +494,8 @@
       "lang": "en",
       "text": "Closer to you Lord, closer I pray\nHelp me draw closer to your will today\nIt doesn’t matter what others may do\nI want to draw closer to you."
     }
-  ]
+  ],
+  "popular": false
 },
 {
   "id": "s-little234553",
@@ -520,7 +534,8 @@
       "lang": "ht",
       "text": "Li se Senyè, li se Senyè\nLi te leve nan lamò, li se Senyè\nTout jenou flechi, tout lang konfese\nJezi-kris se Senyè."
     }
-  ]
+  ],
+  "popular": true
 },
 {
   "id": "s-dear-lord",
@@ -551,12 +566,9 @@
       "lang": "en",
       "text": "It’s by your grace, dear Lord\nI’m here living a clean life\nGive me more courage and holy spirit\nTo help me overcome some day\nI’ll never worry for what’s ahead of me\nIn this road that I trout\nI’ve realized if I’m still here\nYou have chosen me."
     }
-  ]
+  ],
+  "popular": true
 }
-
-
-
-
 
 
 
