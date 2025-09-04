@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "updatedAt": "2025-09-03T00:00:00Z",
+  "songs": [
+    {
+      "id": "s-louange-du-matin",
+      "titles": {
+        "fr": "Louange du Matin",
+        "en": "Morning Praise"
+      },
+      "tags": ["Worship", "Morning"],
+      "hasLanguages": ["fr", "en"],
+      "stanzas": [
+        {
+          "id": "c1-fr",
+          "kind": "chorus",
+          "lang": "fr",
+          "text": "À toi nos voix, nos cœurs unis,\nTa grâce chante, ta paix nous suit."
+        },
+        {
+          "id": "v1-fr",
+          "kind": "verse",
+          "n": 1,
+          "lang": "fr",
+          "text": "Quand vient l’aurore, ta bonté luit,\nSur nos chemins, ta main nous conduit."
+        },
+        {
+          "id": "v2-fr",
+          "kind": "verse",
+          "n": 2,
+          "lang": "fr",
+          "text": "Au cœur des peines, tu fais jaillir\nUn chant d’espérance pour l’avenir."
+        },
+        {
+          "id": "c1-en",
+          "kind": "chorus",
+          "lang": "en",
+          "text": "To You we sing with hearts as one,\nYour grace resounds, Your peace has won."
+        }
+      ]
+    }
+  ]
+}

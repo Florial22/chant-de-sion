@@ -1,0 +1,567 @@
+{
+  "version": 1,
+  "updatedAt": "2025-09-03T00:00:00Z",
+  "songs": [
+    {
+  "id": "s-place-i-m-longing-for",
+  "titles": {
+    "en": "PLACE I’M LONGING FOR"
+  },
+  "hasLanguages": [
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "lang": "en",
+      "text": "When I think of where I’ve been\nAnd the pit you found me in\nI’ve come a long, long way dear Lord\nI know it’s true\nBut one thing I surely know\nI have a long way yet to go\nBefore I reach that place\nI’m longing for in you",
+      "n": 1
+    },
+    {
+      "id": "c1-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "There’s a place Lord I’m longing for in thee\nAnd to find this place means all the world to me\n‘Twill be worth anything You put me through\nJust to reach that place\nI’m longing for in thee."
+    },
+    {
+      "id": "v2-en",
+      "kind": "verse",
+      "lang": "en",
+      "text": "At the dawning of each day\nLet me look to you and pray\nfor your perfect will\nIn everything I do\nTell me when and where to go\nAnd the seed you’d have me sow\nThat I may reach that place\nI’m longing for in you.",
+      "n": 2
+    },
+    {
+      "id": "v3-en",
+      "kind": "verse",
+      "lang": "en",
+      "text": "There are mountains yet to climb\nBefore this place in you I’ll find\nAnd I’m sure that many trials\nI’ll go through\nBut each test I overcome\nWill make me more like your dear son,\nAnd help me reach that I’m place\nI’m longing for in you",
+      "n": 3
+    }
+  ]
+},
+{
+  "id": "s-above-every-name",
+  "titles": {
+    "en": "ABOVE EVERY NAME",
+    "ht": "PI WO TOUT LÒT NOM"
+  },
+  "hasLanguages": [
+    "en",
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "lang": "en",
+      "text": "He came down from heaven to save us\nO what pain and shame\nHe suffered here\nMockingly they hailed him\nOn a cross thy nailed him\nThat is why his name is so dear.",
+      "n": 1
+    },
+    {
+      "id": "c1-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "Above every name is the name of Jesus\nAbove every name is the name of Jesus\nAbove every name is the name of Jesus\nEvery knee shall bow\nEvery tongue confess\nThat Jesus is Lord of all."
+    },
+    {
+      "id": "v2-en",
+      "kind": "verse",
+      "lang": "en",
+      "text": "When in prayer I whisper it softly\nAt the throne of grace it is the key\nAngels love to hear it\nHell and demons fear it\nName of power and victory",
+      "n": 2
+    },
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "lang": "ht",
+      "text": "Li te soti nan syèl vin sove-n\nO ki gran doulè ke-l te pote\nAnpil te moke li, e yo te klouwe li\nSe sa-k fè nom li si dous.",
+      "n": 1
+    },
+    {
+      "id": "c1-ht",
+      "kind": "chorus",
+      "lang": "ht",
+      "text": "Pi wo tout lòt nom se le nom de Jezi\nPi wo tout lòt nom se le nom de Jezi\nPi wo tout lòt nom se le nom de Jezi\nTout jenou flechi, tout lang konfese\nJezu-Kris se Senyè."
+    },
+    {
+      "id": "v2-ht",
+      "kind": "verse",
+      "lang": "ht",
+      "text": "Lè-m kanpe devan twòn de gras li\nPou-m priye nan nom mèvèye sa\nZanj yo renmen tande-l\nSatan kouri pou li\nNom-k plen ak pouvwa e viktwa.",
+      "n": 2
+    }
+  ]
+},
+{
+  "id": "s-alive-alive",
+  "titles": {
+    "en": "ALIVE, ALIVE"
+  },
+  "hasLanguages": [
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "b1-en",
+      "kind": "bridge",
+      "lang": "en",
+      "text": "Alive, alive, alive forevermore\nMy Jesus is alive, alive forevermore\nAlive, alive, alive forevermore\nMy Jesus is alive.\nSing hallelujah, sing hallelujah\nMy Jesus is alive forever more\nSing hallelujah, sing hallelujah\nMy Jesus is alive."
+    }
+  ]
+},
+{
+  "id": "s-all-these-times",
+  "titles": {
+    "en": "ALL THESE TIMES",
+    "ht": "TOUT TAN SA"
+  },
+  "hasLanguages": [
+    "en",
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "lang": "en",
+      "text": "O Lord I want to take this time to be thankful\nFor all you’ve done in my life\nI lay down, awake, and go through my day\nAll these times\nyou’re simply there protecting me.",
+      "n": 1
+    },
+    {
+      "id": "c1-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "All these times you have worked in my favor\nAll these times you’ve interceded for me\nAll these times, you’re simply there\nTaking care of me\nJesus, I want to take this time\nTo say thank you Lord."
+    },
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "lang": "ht",
+      "text": "Jezi m’ta renmen pran tan sa\nPou-m remèsye-w\nPou tout sa ou fè nan lavi mwen\nM’al kouche, m’leve, e-m fè tout aktivite-m\nTout tan sa ou sèlman la w’ap pwoteje-m",
+      "n": 1
+    },
+    {
+      "id": "c2-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "Tout tan sa w’ap aji an favè mwen\nTout tan sa w’ap entèsede pou mwen\nTout tan sa ou sèlman la\nW’ap pran swen mwen\nJezi mwen vle pran tan sa\nPou-m di-w mèsi Senyè."
+    }
+  ]
+},
+{
+  "id": "s-aren-t-you-glad",
+  "titles": {
+    "en": "AREN’T YOU GLAD",
+    "ht": "ESKE-W PA KONTAN VRE"
+  },
+  "hasLanguages": [
+    "ht",
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "c1-ht",
+      "kind": "chorus",
+      "lang": "ht",
+      "text": "Eske-w pa kontan vre Jezi sove-w\nEske-w pa kontan vre li ba-w la verite\nLi mete ou nan kò li\nSe li menm ki tèt ou\nLi wete-w pami mò yo\nL’mete-w pami vivan."
+    },
+    {
+      "id": "c1-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "Aren’t you glad that Jesus remenberded you ?\nAren’t you glad that\nJesus brought you to the truth?\nBrought you to the body of which he is the head\nBrought you to the living\nOut from among the dead. "
+    }
+  ]
+},
+{
+  "id": "s-1glad",
+  "titles": {
+    "en": "I AM GLAD",
+    "ht": "M KONTAN"
+  },
+  "hasLanguages": [
+    "en",
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "c1-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "I’m glad, He laid his hand on me\nSo glad, He laid his hand on me\nI was blind, but now I see\nSince Jesus laid his hand on me."
+    },
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "lang": "ht",
+      "text": "Mwen te pèdi nan peche\nMen Jezi jwenn mwen\nMwen te mouri kounye a m’vivan\nO glwa e alelouya\nJezi se Wa dè wa.",
+      "n": 1
+    },
+    {
+      "id": "c1-ht",
+      "kind": "chorus",
+      "lang": "ht",
+      "text": "M’kontan Kris te met men-l sou mwen\nM’kontan Kris te met men-l sou mwen\nMwen te avèg, kounye a mwen wè\nDepi Jezi te met men-l sou mwen."
+    }
+  ]
+}
+,
+
+{
+  "id": "s-broken-heart",
+  "titles": {
+    "en": "BROKEN HEART"
+  },
+  "tags": [
+    "Worship"
+  ],
+  "hasLanguages": [
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "lang": "en",
+      "text": "One day I lost my way, but no one cared\nI searched for happiness, but found despair\nThen Jesus spoke to me, revealed to me my sin\n“I’ll heal your broken heart if I may enter in",
+      "n": 1
+    },
+    {
+      "id": "c1-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "A broken heart I gave a worthless thing\nAn empty life was all that I could bring\nThen Jesus filled my life with love divine\nHe healed my broken heart\nAnd now I know he’s mine"
+    },
+    {
+      "id": "v2-en",
+      "kind": "verse",
+      "lang": "en",
+      "text": "Have you been wondering why you’re alone?\nDoes God seem far away, you doubt his love\nNow Christ is at the door\nHe sees a heart that’s torn\nHis blood was shed for you, to give you life a new",
+      "n": 2
+    }
+  ]
+}
+,
+{
+  "id": "s-amazing-grace",
+  "titles": {
+    "en": "AMAZING GRACE"
+  },
+  "hasLanguages": [
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "Amazing grace shall always be my song of praise\nFor it was grace that bought my liberty\nI do not know just how he came to love me so\nHe looked beyond my faults and saw my needs."
+    },
+    {
+      "id": "c1-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "I shall forever lift my eyes to Calvary\nTo view the cross where Jesus died for me\nHow marvelous\nThe grace that bought my falling soul\nHe looked beyond my faults and saw my need."
+    },
+    {
+      "id": "v2-en",
+      "kind": "verse",
+      "n": 2,
+      "lang": "en",
+      "text": "If not for grace my soul would be a drifting ship\nWith no safe harbor from the angry waves\nBut calvary’s cross shines brightly\nThrough the darkest storm\nAnd just in time his mercy rescues me."
+    }
+  ]
+},
+{
+  "id": "s-as-the-deer7484",
+  "titles": {
+    "en": "AS THE DEER"
+  },
+  "hasLanguages": [
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "As the deer panteth for the water\nSo my soul longeth after Thee\nYou alone are my heart's desire\nAnd I long to worship Thee."
+    },
+    {
+      "id": "c1-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "You alone are my strength, my shield\nTo you alone may my spirit yield\nYou alone are my heart's desire\nAnd I long to worship Thee."
+    },
+    {
+      "id": "v2-en",
+      "kind": "verse",
+      "n": 2,
+      "lang": "en",
+      "text": "You're my friend and You are my brother\nEven though You are a king\nI love You more than any other\nSo much more than anything."
+    },
+    {
+      "id": "v3-en",
+      "kind": "verse",
+      "n": 3,
+      "lang": "en",
+      "text": "Only you loved me so\nSo much I can’t understand\nOnly you are there in the darkest night\nEven in the deepest sea you’re there\nYour great love help me to hold on."
+    }
+  ]
+},
+{
+  "id": "s-because-he-lives8494",
+  "titles": {
+    "en": "BECAUSE HE LIVES"
+  },
+  "hasLanguages": [
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "God sent his son they called him Jesus\nHe came to love, heal and forgive\nHe lived and died to buy my pardon\nAn empty grave is there to prove my savior lives"
+    },
+    {
+      "id": "c1-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "Because he lives I can face tomorrow\nBecause he lives all fear is gone\nBecause I know he holds the future\nAnd life is worth the living just because He lives"
+    }
+  ]
+},
+{
+  "id": "s-behold-the-lamb8494",
+  "titles": {
+    "en": "BEHOLD THE LAMB"
+  },
+  "hasLanguages": [
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "Behold the lamb, behold the lamb\nSlain from the foundation of the world\nFor Jeus crucified, oh holy sacrifice\nBehold the lamb of God\nBehold the lamb"
+    },
+    {
+      "id": "c1-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "Crown him, crown him\nworthy is the lamb\nPraise him, praise him\nHeaven and earth bless him."
+    }
+  ]
+},
+{
+  "id": "s-kanaan-land3444",
+  "titles": {
+    "en": "CANAAN LAND",
+    "ht": "KANAAN"
+  },
+  "hasLanguages": [
+    "en",
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "Moses led God’s children\nForty years he led them\nThrough the cold\nAnd through the night\nTho they said, “let’s turn back”\nMoses said, “keep going\nCanaan land is just insight.”"
+    },
+    {
+      "id": "c1-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "There will be no sorrow\nThere in that tomorrow\nWe will be there by and by\nMilk and honey flowing\nThat is where I’m going\nCanaan land is just insight."
+    },
+    {
+      "id": "v2-en",
+      "kind": "verse",
+      "n": 2,
+      "lang": "en",
+      "text": "Though we walk through valleys\nThough we climb high mountains\nWe can not give up the fight\nWe must be like Moses\nWe must keep on going\nCanaan land is just in sight."
+    },
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Moyiz mennen pèp la, karantan-l mennen yo\nNan tan frèt e nan tout nwit\nYo di ann retounen, Moyiz di an avan\nKanaan la devan nou."
+    },
+    {
+      "id": "c1-ht",
+      "kind": "chorus",
+      "lang": "ht",
+      "text": "La pap gen soufrans ankò\nNan matine sa kote-n prale pou tout tan\nLèt ak myèl ap koule, kote nou prale\nNan kanaan selès la"
+    },
+    {
+      "id": "v2-ht",
+      "kind": "verse",
+      "n": 2,
+      "lang": "ht",
+      "text": "Ke-n mache nan vale, ke-n monte mòn byen wo\nNou pa dwe sispann batay\nNou dwe fè kou Moyiz, ann kriye an avan\nKanaan la devan nou."
+    }
+  ]
+},
+
+{
+  "id": "s-change8393844",
+  "titles": {
+    "en": "CHANGE ME O GOD",
+    "ht": "CHANJE MWEN SENYÈ"
+  },
+  "hasLanguages": [
+    "en",
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "Change me o God\nFrom the creature that I am\nRenew my mind by the washing of the word\nRestore my soul to you\nDon’t leave me as I am\nLord I want to change, to change."
+    },
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Chanje mwen Senyè, chanje mwen\nLespri sen anvayi kò sa\nChanje mwen\nM’pa bezwen konnen sa mwen va fè\nTransfòme anndan mwen\nFè-m mache nan volonte-w\nChanje mwen."
+    }
+  ]
+},
+{
+  "id": "s-cgise74838933",
+  "titles": {
+    "en": "CHOSEN IN GOD"
+  },
+  "hasLanguages": [
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "My life seemed in vain\n‘til one wonderful day\nWhen the clouds were darkest\nThe Lord came my way\nHe said: “Child, I sought you\nfor you’ve been astray”\nWith his hand he led me to his great highway."
+    },
+    {
+      "id": "c1-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "Chosen in God for redemption’s plan\nChosen in him I’ll follow the lamb\nWho loved me and saved me\nAnd taught me to pray\nAnd said I’ll go with you\nTo the end of the way."
+    }
+  ]
+},
+{
+  "id": "s-clorie123273893",
+  "titles": {
+    "en": "CLOSER TO YOU LORD"
+  },
+  "hasLanguages": [
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "Closer to you Lord, closer I pray\nHelp me draw closer to your will today\nIt doesn’t matter what others may do\nI want to draw closer to you."
+    }
+  ]
+},
+{
+  "id": "s-little234553",
+  "titles": {
+    "en": "CONSIDER THE LILIES",
+    "ht": "MÈSI POU SOLÈY LA"
+  },
+  "hasLanguages": [
+    "en",
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "Consider the lilies\nThey don’t toil nor spin\nAnd there’s not a king\nwith more splendor than them\nConsider the sparrows\nThey don’t plant nor sow\nBut they’re fed by the Master\nwho watches them grow."
+    },
+    {
+      "id": "c1-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "He is Lord, He is Lord\nHe has risen from the dead\nHe is Lord\nEvery knee shall bow\nEvery tongue confess\nThat Jesus Christ is Lord."
+    },
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Mèsi pou solèy la kap klere kò a\nMèsi pou pawòl ou kap nouri nanm mwen\nOu ban-m yon verite ke-m pat gen avan\nOu se yon bon sovè,sen e veritab."
+    },
+    {
+      "id": "c1-ht",
+      "kind": "chorus",
+      "lang": "ht",
+      "text": "Li se Senyè, li se Senyè\nLi te leve nan lamò, li se Senyè\nTout jenou flechi, tout lang konfese\nJezi-kris se Senyè."
+    }
+  ]
+},
+{
+  "id": "s-dear-lord",
+  "titles": {
+    "en": "DEAR LORD"
+  },
+  "hasLanguages": [
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "Here I am, humbling myself\nUnder your mighty hands\nI’ve recognized if I do your will\nyou’ll bless me ‘til the end dear Lord\nThrough out my many faults and all my trials\nYou have never left me \n’ve realized if I’m still here you have chosen me."
+    },
+    {
+      "id": "c1-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "Dear Lord I bow before your throne\nWith all my burdens\nThere is no way for me to hide all of my problems\nAlthough I’ve tried, never succeed\nAll of my efforts would be in vain\nWhen I’m alone in despair you see them."
+    },
+    {
+      "id": "v2-en",
+      "kind": "verse",
+      "n": 2,
+      "lang": "en",
+      "text": "It’s by your grace, dear Lord\nI’m here living a clean life\nGive me more courage and holy spirit\nTo help me overcome some day\nI’ll never worry for what’s ahead of me\nIn this road that I trout\nI’ve realized if I’m still here\nYou have chosen me."
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+  ]
+}
