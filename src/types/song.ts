@@ -16,4 +16,6 @@ export interface Song {
   hasLanguages: LangCode[];
   stanzas: Stanza[];
   popular?: boolean;
+
+  aliases?: string[];   // e.g. alternative titles
 }
