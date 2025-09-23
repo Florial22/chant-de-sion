@@ -22,8 +22,15 @@ export default function SearchBar() {
         onChange={(e) => setQuery(e.target.value)}
         placeholder="Rechercher par titre ou paroles…"
         className="w-full rounded-xl border border-black/10 bg-white px-4 py-2 pl-9 text-sm text-black placeholder-black/50 shadow-sm focus:outline-none"
+        style={{ fontSize: 16 }}           // ← iOS won’t auto-zoom now
         aria-label="Recherche"
+        type="search"
+        inputMode="search"
+        autoCorrect="off"
+        autoCapitalize="none"
+        spellCheck={false}
       />
+
     </div>
   );
 }
