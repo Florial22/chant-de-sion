@@ -1,12 +1,14 @@
+import { normalize, normalizeKreyol, queryVariants } from "../lib/normalize";
 import { useMemo } from "react";
 import { useLibrary } from "../store/library";
 import SongCard from "../components/SongCard";
 import type { Song } from "../types/song";
 import { readStats, scoreSong, mulberry32, dailySeed } from "../lib/engagement";
-import { useSearch } from "../store/search";      // ← listen to query
-import { normalize } from "../lib/normalize";     // ← normalization for search
+import { useSearch } from "../store/search";
 
 import EventBanner from "../components/EventBanner";
+
+
 
 
 const BANNER_URL = "https://imaginative-macaron-ae1f77.netlify.app/banner.json";
@@ -36,20 +38,23 @@ function readFavoriteSet(): Set<string> {
 // Build a normalized haystack per song (multi-language)
 function haystack(song: Song): string {
   const bits: string[] = [];
-  // titles (all langs)
   if (song.titles) {
     for (const v of Object.values(song.titles)) {
       if (typeof v === "string" && v.trim()) bits.push(v);
     }
   }
-  // aliases
-  if (song.aliases?.length) bits.push(...song.aliases);
-  // tags
-  if (song.tags?.length) bits.push(...song.tags);
-  // every stanza text
+  if ((song as any).aliases?.length) bits.push(...(song as any).aliases);
+  if ((song as any).tags?.length) bits.push(...(song as any).tags);
   if (song.stanzas?.length) bits.push(...song.stanzas.map((s) => s.text));
-  return normalize(bits.join(" \n "));
+
+  const raw = bits.join(" \n ");
+
+  // Build two normalized layers and concatenate them.
+  const base = normalize(raw);
+  const krey = normalizeKreyol(raw);
+  return base + "\n" + krey;
 }
+
 
 export default function Home() {
   const { songs, status, error } = useLibrary();
@@ -61,16 +66,22 @@ export default function Home() {
 
   // ===== When searching: compute results
   const searchResults: Song[] = useMemo(() => {
-    if (!isSearching || !Array.isArray(songs)) return [];
-    const out: Song[] = [];
-    for (const s of songs) {
-      try {
-        if (haystack(s).includes(nq)) out.push(s);
+  if (!isSearching || !Array.isArray(songs)) return [];
+  const variants = queryVariants(q); // base + kreyòl + 'ou'↔'w'
+
+  const out: Song[] = [];
+  for (const s of songs) {
+    try {
+      const hs = haystack(s);
+      // any variant match is enough
+      if (variants.some((v) => v && hs.includes(v))) {
+        out.push(s);
         if (out.length >= 100) break; // keep UI snappy
-      } catch {}
-    }
-    return out;
-  }, [isSearching, songs, nq]);
+      }
+    } catch {}
+  }
+  return out;
+}, [isSearching, songs, q]);
 
   // ===== When not searching: For-You mix (top 5 by score + 3 daily fresh)
   const forYou: Song[] = useMemo(() => {
