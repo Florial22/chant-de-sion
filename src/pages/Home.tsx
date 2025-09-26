@@ -6,6 +6,11 @@ import { readStats, scoreSong, mulberry32, dailySeed } from "../lib/engagement";
 import { useSearch } from "../store/search";      // ← listen to query
 import { normalize } from "../lib/normalize";     // ← normalization for search
 
+import EventBanner from "../components/EventBanner";
+
+
+const BANNER_URL = "https://imaginative-macaron-ae1f77.netlify.app/banner.json";
+
 // Try to read favorites from local storage without coupling to store internals
 function readFavoriteSet(): Set<string> {
   const candidates = [
@@ -142,7 +147,9 @@ export default function Home() {
           — {list.length}
         </div>
       )}
-
+        {/* banner */}
+        <EventBanner url={BANNER_URL} />
+        
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
         {list.map((song) => (
           <SongCard key={song.id} song={song} />

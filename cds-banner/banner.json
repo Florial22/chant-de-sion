@@ -1,0 +1,10 @@
+{
+  "id": "2025-10-revival-mtl",
+  "active": true,
+  "title": "Soirée de Louange",
+  "message": "Vendredi 3 oct · 19h · Église XYZ, Montréal",
+  "end": "2025-10-04T02:00:00Z",
+  "location": "Église XYZ",
+  "link": "https://exemple.com/evenement",
+  "autocloseSec": 10
+}
