@@ -1,4 +1,3 @@
-// src/lib/eventBanner.ts
 import { readJSON, writeJSON } from "./storage";
 
 export type EventBannerData = {

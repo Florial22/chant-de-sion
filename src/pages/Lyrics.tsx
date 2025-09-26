@@ -6,7 +6,7 @@ import type { LangCode, Stanza } from "../types/song";
 import { readJSON, writeJSON } from "../lib/storage";
 import FavoriteButton from "../components/FavoriteButton";
 import { useSettings } from "../store/settings";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { ChevronLeft, ChevronRight, Flag } from "lucide-react";
 import { pickTitle } from "../lib/pickTitle";
 import { bumpView, addDwell } from "../lib/engagement";
 
@@ -85,6 +85,40 @@ const song = useMemo(() => songs.find((s) => s.id === id), [songs, id]);
   const atStart = index <= 0, atEnd = index >= total - 1;
   const goPrev = () => !atStart && setIndex((i) => i - 1);
   const goNext = () => !atEnd && setIndex((i) => i + 1);
+
+  // email to receive flags
+  const FLAG_EMAIL = "florialrudshadson@yahoo.com";
+
+// prefilled mailtp 
+const titleForEmail =
+  pickTitle(song, { prefer: lang, fallbacks: song.hasLanguages as LangCode[] }) || "Sans titre";
+
+const appVersion = (globalThis as any)?.__APP_VERSION__ || "dev";
+const ua = (globalThis as any)?.navigator?.userAgent || "";
+const uiLang = (globalThis as any)?.navigator?.language || "";
+const songUrl = (globalThis as any)?.location?.href || "";
+
+const mailSubject = `CDS Flag – ${song.id} – ${titleForEmail}`;
+const mailBody =
+  `Song ID: ${song.id}\n` +
+  `Title: ${titleForEmail}\n` +
+  `Language (view): ${lang}\n` +
+  `App Version: ${appVersion}\n` +
+  `UI Lang: ${uiLang}\n` +
+  `URL: ${songUrl}\n` +
+  `User-Agent: ${ua}\n` +
+  `---\n` +
+  `Describe the issue (optional):\n`;
+
+const mailHref =
+  `mailto:${FLAG_EMAIL}?subject=${encodeURIComponent(mailSubject)}&body=${encodeURIComponent(mailBody)}`;
+
+function flagSong() {
+  // opens native Mail on iOS/Android; default mail client on desktop
+  window.location.href = mailHref;
+}
+
+
 
   if (total === 0) {
   return (
@@ -204,6 +238,17 @@ const song = useMemo(() => songs.find((s) => s.id === id), [songs, id]);
         </div>
 
         <div className="flex items-center gap-2">
+            {/* flag */}
+            <button
+              onClick={flagSong}
+              className="rounded-full border border-black/10 bg-white p-2 shadow-sm"
+              style={{ color: "#000" }}
+              aria-label="Signaler un problème"
+              title="Signaler un problème"
+              >
+              <Flag size={18} />
+            </button>
+
           <FavoriteButton songId={song.id} />
           {/* Language switch */}
           <div className="flex items-center gap-1">
