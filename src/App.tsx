@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { BrowserRouter, Routes, Route, useLocation, useNavigate } from "react-router-dom";
+import AdminBanner from "./pages/AdminBanner";
 
 import Home from "./pages/Home";
 import Lyrics from "./pages/Lyrics";
@@ -45,6 +46,7 @@ function Layout() {
         <Route path="/favoris" element={<Favorites />} />
         <Route path="/reglages" element={<Settings />} />
         <Route path="/song/:id" element={<Lyrics />} />
+        <Route path="/admin/banner" element={<AdminBanner />} />
       </Routes>
       {!hideChrome && <BottomNav />}
     </div>

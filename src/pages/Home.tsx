@@ -11,7 +11,7 @@ import EventBanner from "../components/EventBanner";
 
 
 
-const BANNER_URL = "https://imaginative-macaron-ae1f77.netlify.app/banner.json";
+const BANNER_URL = "https://zionsongs.netlify.app/banner.json";
 
 // Try to read favorites from local storage without coupling to store internals
 function readFavoriteSet(): Set<string> {
@@ -148,7 +148,7 @@ export default function Home() {
   const list = isSearching ? searchResults : forYou;
 
   return (
-    <div className="safe-top px-4 py-4" style={{ background: "#e2eee4" }}>
+    <div className="safe-top px-4 py-4" style={{ background: "#e2eee4", paddingBottom: "calc(64px + var(--safe-bottom, 0px))" }}>
       {isSearching && (
         <div className="mb-2 text-sm text-black/60">
           Résultats pour{" "}
