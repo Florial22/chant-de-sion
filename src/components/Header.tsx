@@ -3,8 +3,11 @@ import SearchBar from "./SearchBar";
 
 export default function Header() {
   const { pathname } = useLocation();
-  // Hide search on Settings and Explore pages (keep title)
-  const showSearch = pathname !== "/reglages" && !pathname.startsWith("/explorer");
+  // hide search on some pages
+  const showSearch =
+    pathname !== "/reglages" &&
+    !pathname.startsWith("/explorer") &&
+    !pathname.startsWith("/live");
 
   return (
     <header
