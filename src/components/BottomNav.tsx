@@ -1,6 +1,5 @@
-// src/components/BottomNav.tsx
 import { NavLink } from "react-router-dom";
-import { Home, Compass, Heart, Settings as SettingsIcon } from "lucide-react";
+import { Home, Compass, Heart, Settings as SettingsIcon, Radio } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 
 const ACCENT = "#417956";
@@ -12,7 +11,7 @@ function Item({
 }: {
   to: string;
   label: string;
-  icon: LucideIcon; // allows Icon size/color props
+  icon: LucideIcon;
 }) {
   return (
     <NavLink
@@ -50,11 +49,12 @@ export default function BottomNav() {
     >
       <div className="mx-auto max-w-3xl">
         <div
-          className="mx-3 mb-3 grid grid-cols-4 rounded-2xl border bg-white shadow-sm"
+          className="mx-3 mb-3 grid grid-cols-5 rounded-2xl border bg-white shadow-sm"
           style={{ borderColor: "rgba(0,0,0,0.1)" }}
         >
           <Item to="/" label="Accueil" icon={Home} />
           <Item to="/explorer" label="Explorer" icon={Compass} />
+          <Item to="/live" label="Live" icon={Radio} />        {/* ← ajouté ici */}
           <Item to="/favoris" label="Favoris" icon={Heart} />
           <Item to="/reglages" label="Réglages" icon={SettingsIcon} />
         </div>

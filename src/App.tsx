@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Lyrics from "./pages/Lyrics";
 import Favorites from "./pages/Favorites";
 import Settings from "./pages/Settings";
+import Live from "./pages/Live";  
 import Explore from "./pages/Explore";
 import Welcome from "./pages/Welcome";
 
@@ -43,6 +44,7 @@ function Layout() {
         <Route path="/welcome" element={<Welcome />} />
         <Route path="/" element={<Home />} />
         <Route path="/explorer" element={<Explore />} />
+         <Route path="/live" element={<Live />} /> 
         <Route path="/favoris" element={<Favorites />} />
         <Route path="/reglages" element={<Settings />} />
         <Route path="/song/:id" element={<Lyrics />} />
