@@ -7,6 +7,7 @@ import { pickTitle } from "../lib/pickTitle";
 import SongCard from "../components/SongCard";
 import LanguageChips from "../components/LanguageChips";
 import type { LangCode } from "../types/song";
+import { useT } from "../lib/i18n";
 
 const PER_PAGE = 25;
 
@@ -15,6 +16,7 @@ export default function Explore() {
   const { langFilter } = useSearch();
   const { settings } = useSettings();
   const [params, setParams] = useSearchParams();
+  const t = useT();
 
   // Read page from URL (?p=), default 1
   const pageParam = Math.max(1, parseInt(params.get("p") || "1", 10) || 1);
@@ -92,7 +94,7 @@ export default function Explore() {
   };
 
   if (status === "loading") {
-    return <div className="safe-top px-4 pb-6">Chargement des chants…</div>;
+    return <div className="safe-top px-4 pb-6">{t("exploreSongsLoading")}</div>;
   }
   if (status === "error") {
     return (
@@ -112,16 +114,16 @@ export default function Explore() {
     >
       <div className="flex items-center justify-between mb-2">
         <h1 className="text-base font-semibold" style={{ color: "#000" }}>
-          Explorer
+          {t("explore")}
         </h1>
-        <div className="text-xs text-black/60">{total} chants</div>
+        <div className="text-xs text-black/60">{total} {t("exploreSongscount")}</div>
       </div>
 
       {/* Keep your language chips */}
       <LanguageChips />
 
       {slice.length === 0 ? (
-        <p className="text-black/70 mt-2">Aucun chant pour cette langue.</p>
+        <p className="text-black/70 mt-2">{t("exploreNosongs")}</p>
       ) : (
         <>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-2">
@@ -142,10 +144,10 @@ export default function Explore() {
                 borderColor: "rgba(0,0,0,0.15)",
               }}
             >
-              Précédent
+              {t("exploreback")}
             </button>
             <span className="text-sm text-black/70">
-              Page {page} / {totalPages}
+              {t("explorePage")} {page} / {totalPages}
             </span>
             <button
               onClick={goNext}
@@ -157,7 +159,7 @@ export default function Explore() {
                 borderColor: "rgba(0,0,0,0.15)",
               }}
             >
-              Suivant
+              {t("exploreforward")}
             </button>
           </div>
         </>

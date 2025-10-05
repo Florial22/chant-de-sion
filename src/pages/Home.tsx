@@ -7,6 +7,9 @@ import { readStats, scoreSong, mulberry32, dailySeed } from "../lib/engagement";
 import { useSearch } from "../store/search";
 
 import EventBanner from "../components/EventBanner";
+import { useT } from "../lib/i18n";
+
+
 
 
 
@@ -63,6 +66,8 @@ export default function Home() {
   const q = (query || "").trim();
   const nq = normalize(q);
   const isSearching = nq.length > 0;
+
+  const t = useT();
 
   // ===== When searching: compute results
   const searchResults: Song[] = useMemo(() => {
@@ -132,7 +137,7 @@ export default function Home() {
   }, [songs]);
 
   if (status === "loading") {
-    return <div className="safe-top px-4 py-6">Chargement…</div>;
+    return <div className="safe-top px-4 py-6"> {t("loading")} </div>;
   }
   if (status === "error") {
     return (
@@ -151,7 +156,7 @@ export default function Home() {
     <div className="safe-top px-4 py-4" style={{ background: "#e2eee4", paddingBottom: "calc(64px + var(--safe-bottom, 0px))" }}>
       {isSearching && (
         <div className="mb-2 text-sm text-black/60">
-          Résultats pour{" "}
+          {t("homeRsultfor")} {" "}
           <span className="font-medium" style={{ color: "#000" }}>
             “{q}”
           </span>{" "}
@@ -170,8 +175,8 @@ export default function Home() {
       {list.length === 0 && (
         <p className="mt-4 text-sm text-black/60">
           {isSearching
-            ? "Aucun chant ne correspond à votre recherche."
-            : "Aucun chant trouvé."}
+            ? t("noneMatch")
+            : t("noneFound")}
         </p>
       )}
     </div>

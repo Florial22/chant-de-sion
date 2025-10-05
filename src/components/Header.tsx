@@ -1,8 +1,10 @@
 import { useLocation } from "react-router-dom";
 import SearchBar from "./SearchBar";
+import { useT } from "../lib/i18n";
 
 export default function Header() {
   const { pathname } = useLocation();
+  const t = useT();
   // hide search on some pages
   const showSearch =
     pathname !== "/reglages" &&
@@ -20,7 +22,7 @@ export default function Header() {
           aria-label="Chant de Sion"
           style={{ color: "#e2eee4" }}
         >
-          Chant de Sion
+          {t("appName")}
         </h1>
       </div>
 

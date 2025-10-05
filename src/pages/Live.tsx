@@ -1,7 +1,8 @@
 import { useEffect, useMemo, useState } from "react";
 import { Capacitor } from "@capacitor/core";
+import { useT } from "../lib/i18n";
 
-const CHECK_LIVE_URL = "https://admin-zion.netlify.app/.netlify/functions/check-live";
+const LIVE_JSON_URL = "https://zionsongs.netlify.app/live.v1.json";
 
 type LiveStream = {
   id: string;
@@ -11,14 +12,13 @@ type LiveStream = {
   lang?: string[];
   city?: string;
   active?: boolean;
-  liveNow?: boolean;
-  schedule?: { dow: string[]; time: string; tz: string }[];
   logo?: string;
 };
-type Payload = { version: number; checkedAt?: string; streams: LiveStream[] };
+
+type Payload = { version?: number; streams?: LiveStream[] };
 
 async function openExternal(url: string) {
-  if (Capacitor && Capacitor.isNativePlatform?.()) {
+  if (Capacitor?.isNativePlatform?.()) {
     try {
       const mod: any = await import("@capacitor/browser");
       await mod.Browser.open({ url });
@@ -29,6 +29,7 @@ async function openExternal(url: string) {
 }
 
 export default function Live() {
+  const t = useT();
   const [data, setData] = useState<Payload | null>(null);
   const [status, setStatus] = useState<"idle" | "loading" | "ok" | "error">("idle");
   const [error, setError] = useState("");
@@ -39,16 +40,17 @@ export default function Live() {
       setStatus("loading");
       setError("");
       try {
-        const res = await fetch(`${CHECK_LIVE_URL}?t=${Date.now()}`, { cache: "no-store" });
+        const res = await fetch(`${LIVE_JSON_URL}?t=${Date.now()}`, { cache: "no-store" });
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const json = (await res.json()) as Payload;
         if (!alive) return;
         setData(json);
         setStatus("ok");
-        try { localStorage.setItem("cds:live:last", JSON.stringify(json)); } catch {}
+        try { localStorage.setItem("cds:channels:last", JSON.stringify(json)); } catch {}
       } catch (e: any) {
+        // Fallback to last cached list if offline
         try {
-          const raw = localStorage.getItem("cds:live:last");
+          const raw = localStorage.getItem("cds:channels:last");
           if (raw) {
             const fallback = JSON.parse(raw) as Payload;
             if (alive) {
@@ -74,23 +76,16 @@ export default function Live() {
   const streams = useMemo(() => {
     const arr = data?.streams ?? [];
     const actives = arr.filter((s) => s.active !== false);
-    return [...actives].sort((a, b) => {
-      const la = a.liveNow ? 1 : 0;
-      const lb = b.liveNow ? 1 : 0;
-      if (la !== lb) return lb - la; // live first
-      return (a.name || "").localeCompare(b.name || "");
-    });
+    return [...actives].sort((a, b) => (a.name || "").localeCompare(b.name || ""));
   }, [data]);
 
-  const liveCount = streams.filter((s) => s.liveNow).length;
-
   if (status === "loading" && !data) {
-    return <div className="safe-top px-4 py-6">Chargement des directs…</div>;
+    return <div className="safe-top px-4 py-6">{t("loading")}</div>;
   }
   if (status === "error" && !data) {
     return (
       <div className="safe-top px-4 py-6">
-        <p className="mb-2">Impossible de charger la liste des directs.</p>
+        <p className="mb-2">{t("unableToLoadChannels")}</p>
         <pre className="text-xs text-black/70 bg-white/70 p-2 rounded border border-black/10">{error}</pre>
       </div>
     );
@@ -102,25 +97,25 @@ export default function Live() {
       style={{ background: "#e2eee4", paddingBottom: "calc(64px + var(--safe-bottom, 0px))" }}
     >
       <div className="flex items-center justify-between mb-2">
-        <h1 className="text-base font-semibold" style={{ color: "#000" }}>En direct</h1>
-        
+        <h1 className="text-base font-semibold" style={{ color: "#000" }}>
+          {t("channelsHeader")}
+        </h1>
+        <div className="text-xs text-black/60">{streams.length}</div>
       </div>
 
       {error && <div className="mb-2 text-xs text-amber-700">{error}</div>}
 
-      {liveCount === 0 && (
-        <div className="mb-2 text-sm text-black/70">Aucun direct en cours pour le moment.</div>
-      )}
-
       {streams.length === 0 ? (
-        <p className="text-black/70 mt-2">Aucun flux disponible.</p>
+        <p className="text-black/70 mt-2">{t("channelsEmpty")}</p>
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-2">
           {streams.map((s) => (
             <div key={s.id} className="rounded-2xl border border-black/10 bg-white p-4 shadow-sm">
               <div className="flex items-center justify-between gap-3">
                 <div className="min-w-0">
-                  <div className="font-semibold truncate" style={{ color: "#417956" }}>{s.name}</div>
+                  <div className="font-semibold truncate" style={{ color: "#417956" }}>
+                    {s.name}
+                  </div>
                   <div className="mt-1 flex items-center gap-2 flex-wrap text-xs">
                     {s.city && <span className="text-black/60">{s.city}</span>}
                     {s.lang?.length ? (
@@ -132,15 +127,6 @@ export default function Live() {
                         ))}
                       </span>
                     ) : null}
-                    <span
-                      className="px-1.5 py-0.5 rounded"
-                      style={{
-                        background: s.liveNow ? "#ef4444" : "rgba(0,0,0,0.08)",
-                        color: s.liveNow ? "#fff" : "#000"
-                      }}
-                    >
-                      {s.liveNow ? "EN DIRECT" : "Hors ligne"}
-                    </span>
                   </div>
                 </div>
                 {s.logo ? (
@@ -152,21 +138,13 @@ export default function Live() {
                 ) : null}
               </div>
 
-              {s.schedule?.length ? (
-                <div className="mt-2 text-xs text-black/60">
-                  {s.schedule.map((slot, i) => (
-                    <div key={i}>{slot.dow.join(", ")} · {slot.time} ({slot.tz})</div>
-                  ))}
-                </div>
-              ) : null}
-
               <div className="mt-3">
                 <button
                   onClick={() => openExternal(s.url)}
                   className="rounded-full border border-black/10 bg-white px-4 py-2 shadow-sm"
                   style={{ color: "#000" }}
                 >
-                  Regarder
+                  {t("visitChannel")}
                 </button>
               </div>
             </div>

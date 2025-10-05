@@ -1,4 +1,5 @@
 import { useSearch } from "../store/search";
+import { useT } from "../lib/i18n";
 
 const CHIP = (props: React.PropsWithChildren<{ active: boolean; onClick: () => void; disabled?: boolean }>) => (
   <button
@@ -18,12 +19,13 @@ const CHIP = (props: React.PropsWithChildren<{ active: boolean; onClick: () => v
 
 export default function LanguageChips() {
   const { langFilter, setLangFilter } = useSearch();
+  const t = useT();
   return (
     <div className="mb-3">
-      <CHIP active={langFilter === "all"} onClick={() => setLangFilter("all")}>Tous</CHIP>
-      <CHIP active={langFilter === "fr"} onClick={() => setLangFilter("fr")}>FR</CHIP>
-      <CHIP active={langFilter === "en"} onClick={() => setLangFilter("en")}>EN</CHIP>
-      <CHIP active={langFilter === "ht"} onClick={() => setLangFilter("ht")}>HT</CHIP>
+      <CHIP active={langFilter === "all"} onClick={() => setLangFilter("all")}>{t("chipsAll")}</CHIP>
+      <CHIP active={langFilter === "fr"} onClick={() => setLangFilter("fr")}>{t("chipsFr")}</CHIP>
+      <CHIP active={langFilter === "en"} onClick={() => setLangFilter("en")}>{t("chipsEn")}</CHIP>
+      <CHIP active={langFilter === "ht"} onClick={() => setLangFilter("ht")}>{t("chipsHt")}</CHIP>
     </div>
   );
 }
