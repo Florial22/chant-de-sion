@@ -6697,7 +6697,113 @@
   ],
   "popular": true
 },
-
+{
+  "id": "sen-qdma1794xl9r",
+  "titles": {
+    "en": "MORE OF YOU",
+    "ht": "Plis Nan Ou"
+  },
+  "hasLanguages": [
+    "en",
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "I’m not trying to find just a new frame of mind\nThat would change my whole point of view\nSee I’ve been thru it all deep inside\nNothing changed I’m not new\nI’m not seeking a gift of emotional lift\nBut one thing I’m longing to do\nIs to lift up my cup\nAnd let you fill it up with just you."
+    },
+    {
+      "id": "c1-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "More of you, more of you\nI’ve got all but what I need, is just more of you\nOf things I’ve had my fill\nAnd yet I’m hunger still empty and bare\nLord hear my prayer for more of you."
+    },
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Mwen p'ap cheche nouvel fason panse\nKi ta chanje tout opinyon mwen\nMalgre m reyalize m pa kapab chanje anyen mwen menm\nMwen p'ap cheche yon don ni yon emosyon nouvel\nSel bagay mwen vreman vle se pou m leve koup mwen\nKite l ranpli li ak tout li menm"
+    },
+    {
+      "id": "c1-ht",
+      "kind": "chorus",
+      "lang": "ht",
+      "text": "Plis nan ou\nPlis nan ou\nNan tout sa m gen bezwen\nFè m plis nan ou\nPou sa m genyen deja\nJiska prezan m grangou\nMwen di Segnè: \"Koute kri kè m\nfè m plis nan ou\""
+    }
+  ],
+  "popular": false
+},{
+  "id": "sen-jjaf5rve18h4",
+  "titles": {
+    "en": "MY TRUST IS RESTED ON JESUS",
+    "ht": "M'ap Aprann Konfye M"
+  },
+  "hasLanguages": [
+    "en",
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "My trust is rested on Jesus \nwho has all power He will never fail \nwhen the storms are raging high\nAnd he’s on the throne \nmaking intercession for me\nHis mighty spirit falls on me, so he’s alive."
+    },
+    {
+      "id": "c1-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "My trust is rested on Jesus\nAltough I see him not\nBut by faith I hear the bells ring \nin the holy of holies\nFor this man was counted worthy\nOf having more glory than Moses\nHe entered into the holiest by his own blood."
+    },
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "M'ap aprann konfye m nan Jezi ki gen tout puisans\nLi pa janm fayi nan moman difisil yo\nLi se yon avoka sou twòn nan k'ap plede pou nou\nPuisans Lespri li fè m santi ke li vivan"
+    },
+    {
+      "id": "c1-ht",
+      "kind": "chorus",
+      "lang": "ht",
+      "text": "M'ap met tout konfyans mwen nan li\nMenm si zye m pa wè l\nPa la fwa m tande son klòch yo\nK'ap sonnen nan sen dè sen\nYon sakrifikatè si gran\nL depase ministè Moyiz la\nAsanswa l nan men l\nLi se yon vainqueur de la mort"
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sht-99nmnfgmjhkl",
+  "titles": {
+    "ht": "se legliz sa",
+    "en": "THIS THE CHURCH"
+  },
+  "hasLanguages": [
+    "ht",
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "SE LEGLIZ SA , SE LÈ AK RIVE\nSOVÈ AP VINI POUL BA NOU PWISANS\nLAP VINI NAN KÈ NOU POUL RETE\nALA YON MÈVEYE, GLORIYE JOU"
+    },
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "This is the church, this is the hour\nOur Lord is coming to give us power\nHe’s coming in our hearts to stay\nOh what a wonderful, glorious day."
+    }
+  ],
+  "popular": false
+},
 
 
 
@@ -6761,12 +6867,14 @@
 },
 
 {
-  "id": "sht-81xr0y4supg9",
+  "id": "sht-mdrmywuknnp9",
   "titles": {
-    "ht": "PITYE L’ RE-EKRI VI-M"
+    "ht": "Pitye w rekri vi m",
+    "en": "MERCY REWROTE MY LIFE"
   },
   "hasLanguages": [
-    "ht"
+    "ht",
+    "en"
   ],
   "stanzas": [
     {
@@ -6774,20 +6882,40 @@
       "kind": "verse",
       "n": 1,
       "lang": "ht",
-      "text": "Lontan mwen te nan yon wout pèdi\nKè mwen te pèdi tout jwa e tout bèl chan\nMen nan gras li mwen kote mwen dwe ye\nE pitye-l re’ekri vi-m."
+      "text": "Yon jou mwen te nan yon wout pèdi\nKè mwen te pèdi tout gran jwa\nTout bèl chan\nMen gras li please mwen kote mwen dwe ye\nE pitye l reekri vi m"
     },
     {
       "id": "c1-ht",
       "kind": "chorus",
       "lang": "ht",
-      "text": "Pitye-l re’ekri vi-m\nPitye-l re’ekri vi mwen\nMwen te kap tonbe\nNanm mwen ta pèdi\nE pitye-l re’ekri vi-m."
+      "text": "Pitye l reekri vi m\nPitye l reekri vi mwen\nMwen te ka tonbe\nNanm mwen ta pèdi\nMen pitye l reekri vi m"
     },
     {
       "id": "v2-ht",
       "kind": "verse",
       "n": 2,
       "lang": "ht",
-      "text": "Erè-m yo Bon Dye chanje an mirak\nE tout dlo nan je-m yo li chanje an jwa\nE pase-m te padone\nE m’gen yon nom nouvo\nE pitye-l re’ekri vi-m."
+      "text": "Erè m yo te tounen tank'on mirak\nTristès mwen yo te chanje an jwa\nPeche m yo padone\nYon lòt non reekri\nLè pitye te reekri vi m"
+    },
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "For years I traveled a road all wrong\nMy heart had lost its joy and its song\nTill grace placed me right where I belong\nWhen mercy rewrote my life."
+    },
+    {
+      "id": "c1-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "Mercy rewrote my life\nMercy rewrote my life\nI could have fallen\nMy soul cast way down\nBut mercy rewrote my life."
+    },
+    {
+      "id": "v2-en",
+      "kind": "verse",
+      "n": 2,
+      "lang": "en",
+      "text": "My mistakes God turned into miracles\nAnd all of my tears he turned into joy\nThen my past was forgiven\nAnd my new name it was written\nWhen mercy rewrote my life."
     }
   ],
   "popular": false
@@ -6983,33 +7111,59 @@
       "popular": false
     },
     {
-      "id": "sht-0a1s2d3f4g5h",
-      "titles": { "ht": "POU-M VIN YON kolòn" },
-      "hasLanguages": ["ht"],
-      "stanzas": [
-        {
-          "id": "v1-ht",
-          "kind": "verse",
-          "n": 1,
-          "lang": "ht",
-          "text": "Kite-m sispann fè rezistans jodia\nDepouye mwen konplètman e priye\nManifeste amou youn pou lòt\nNan ede bati frè mwen an\nM’va yon kolòn nan mezon le Senyè."
-        },
-        {
-          "id": "c1-ht",
-          "kind": "chorus",
-          "lang": "ht",
-          "text": "Pou-m vin yon kolòn nan mezon le Senyè\nKi gran onè sa ta ye nan vi mwen\nSi-m kontinye mache dwat\nRet fidèl jiskaske-m pafè\nM’va yon kolòn\nNan mezon le Senyè."
-        },
-        {
-          "id": "v2-ht",
-          "kind": "verse",
-          "n": 2,
-          "lang": "ht",
-          "text": "Nan wayòm ou yon jou mwen va ye\nSan enkyetid sou sa lavi ka pote\nMwen va travay nan lòd ou\nNan ede bati grenye a\nM’va yon kolòn nan mezon le Senyè."
-        }
-      ],
-      "popular": false
+  "id": "sht-o92yi2vcoh4y",
+  "titles": {
+    "ht": "POU-M VIN YON kolòn",
+    "en": "TO BE A PILLAR"
+  },
+  "hasLanguages": [
+    "ht",
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Kite-m sispann fè rezistans jodia\nDepouye mwen konplètman e priye\nManifeste amou youn pou lòt\nNan ede bati frè mwen an\nM’va yon kolòn nan mezon le Senyè."
     },
+    {
+      "id": "c1-ht",
+      "kind": "chorus",
+      "lang": "ht",
+      "text": "Pou-m vin yon kolòn nan mezon le Senyè\nKi gran onè sa ta ye nan vi mwen\nSi-m kontinye mache dwat\nRet fidèl jiskaske-m pafè\nM’va yon kolòn\nNan mezon le Senyè."
+    },
+    {
+      "id": "v2-ht",
+      "kind": "verse",
+      "n": 2,
+      "lang": "ht",
+      "text": "Nan wayòm ou yon jou mwen va ye\nSan enkyetid sou sa lavi ka pote\nMwen va travay nan lòd ou\nNan ede bati grenye a\nM’va yon kolòn nan mezon le Senyè."
+    },
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "Let me lay down my strife today\nGive all that I have and pray\nshow love t’ward another\nAnd help build my brother\nI’ll be a pillar in the house of the Lord."
+    },
+    {
+      "id": "c1-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "To be a pillar in the house of the Lord\nWhat an honor this life could bring\nIf I’ll walk up rightly, be faithfull til’ I’m holy\nI’ll be a pillar in the house of the Lord."
+    },
+    {
+      "id": "v2-en",
+      "kind": "verse",
+      "n": 2,
+      "lang": "en",
+      "text": "In your kingdom I long to be\nNot caring what life may bring\nI’ll work in your order and help build the garner\nAnd be a pillar in the house of the Lord."
+    }
+  ],
+  "popular": false
+},
     {
       "id": "sht-j3p9x2m7q4va",
       "titles": { "ht": "PRAL GEN KRIYE" },
@@ -7340,21 +7494,7 @@
       ],
       "popular": false
     },
-    {
-      "id": "sht-z1x7c4v8m3pn",
-      "titles": { "ht": "SE LEGLIZ LA" },
-      "hasLanguages": ["ht"],
-      "stanzas": [
-        {
-          "id": "v1-ht",
-          "kind": "verse",
-          "n": 1,
-          "lang": "ht",
-          "text": "Se legliz la, se lè a-k rive\nSenyè a ap vini pou-l ba nou pwisans\nL’ap vini nan kè nou pou-l rete\nA la yon mèvèye gloriye jou."
-        }
-      ],
-      "popular": false
-    },
+    
     {
       "id": "sht-v3b6n2p8k9mh",
       "titles": { "ht": "SE OU KI MERITE LOUWANJ" },
@@ -17657,78 +17797,6 @@
 },
 
 {
-  "id": "sht-u3h0e7ydpl3r",
-  "titles": {
-    "ht": "FÈ-M VIN YON ENSTRIMAN"
-  },
-  "hasLanguages": [
-    "ht"
-  ],
-  "stanzas": [
-    {
-      "id": "v1-ht",
-      "kind": "verse",
-      "n": 1,
-      "lang": "ht",
-      "text": "Flè yo gen solèy la\nKap briye byen wo anlè a\nKris konnen m’pa anyen\nSan lespri-l lavi-m ta sanble anven\nFòme-m e fè mwen\nPou-m ka vin sanble ak ou\nFè-m vin yon enstriman damou pou ou."
-    },
-    {
-      "id": "c1-ht",
-      "kind": "chorus",
-      "lang": "ht",
-      "text": "Fè-m vin yon enstriman damou pou jodia\nFè mwen sonje pitit ou yo\nChak jou lè m’ap priye\nFè-m wè sa ki bon, sa k’ pa bon\nChak jou nan mwen\nSenyè fè-m vin yon enstriman\nDamou pou ou."
-    }
-  ],
-  "popular": false
-},
-
-{
-  "id": "sht-u3h0e7ydpl3r",
-  "titles": {
-    "ht": "FÈ-M VIN YON ENSTRIMAN"
-  },
-  "hasLanguages": [
-    "ht"
-  ],
-  "stanzas": [
-    {
-      "id": "v1-ht",
-      "kind": "verse",
-      "n": 1,
-      "lang": "ht",
-      "text": "Flè yo gen solèy la\nKap briye byen wo anlè a\nKris konnen m’pa anyen\nSan lespri-l lavi-m ta sanble anven\nFòme-m e fè mwen\nPou-m ka vin sanble ak ou\nFè-m vin yon enstriman damou pou ou."
-    },
-    {
-      "id": "c1-ht",
-      "kind": "chorus",
-      "lang": "ht",
-      "text": "Fè-m vin yon enstriman damou pou jodia\nFè mwen sonje pitit ou yo\nChak jou lè m’ap priye\nFè-m wè sa ki bon, sa k’ pa bon\nChak jou nan mwen\nSenyè fè-m vin yon enstriman\nDamou pou ou."
-    }
-  ],
-  "popular": false
-},
-
-{
-  "id": "sht-8qdqbufa1dnw",
-  "titles": {
-    "ht": "FÈ-M YON KREDI SENYÈ"
-  },
-  "hasLanguages": [
-    "ht"
-  ],
-  "stanzas": [
-    {
-      "id": "v1-ht",
-      "kind": "verse",
-      "n": 1,
-      "lang": "ht",
-      "text": "Fè-m yon kredi Senyè\nByen ke-m pa kalifye\nMwen pwomèt ou m’ap peye ak pri lavi mwen\nO o o mwen vle ba ou yon ofrand ki diy\nTanpri Senyè fè-m gras."
-    }
-  ],
-  "popular": false
-},
-
-{
   "id": "sht-vxfw4zciwo9g",
   "titles": {
     "ht": "FOUYE"
@@ -20263,6 +20331,34 @@
     ],
     "popular": false
   },
+  {
+  "id": "sen-nd9pgxhr0iul",
+  "titles": {
+    "en": "I just can't Thank him enough",
+    "ht": "M’pap jan’m fin lwe’l ase"
+  },
+  "hasLanguages": [
+    "en",
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "I just can't Thank him enough, \nI just can't Praise him enough.\nI just can't tell  \nhow much he means to me.\nHe took my feet from the miry clay\n and placed them on the rock to stay.\nI just can't Thank him enough \nfor what he's done for me."
+    },
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "M’pap jan’m fin lwe’l ase\nM’pap jan’m fi’n beni’l ase\nM’pap jan’m fi’n di\nkonbyen li vo pou mwen\nli wete pye’m nan ma labou\nli mete pye’m sou wok solid la\nM’pap jan’m fi’ lwe’l ase\npou sa li fe pou mwen"
+    }
+  ],
+  "popular": false
+},
 
 
 
@@ -21149,7 +21245,816 @@
     }
   ],
   "popular": false
+},
+{
+  "id": "sht-fd38dpo4wod5",
+  "titles": {
+    "ht": "SI-M TE KAP TOUCHE-W"
+  },
+  "hasLanguages": [
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Si-m te kap touche-w\nSi-m te kap manyen-w\nSi-m te gen de zèl pou-m vole\nSe nan ou mwen kwè\nMwen pa pè tonè\nMwen pa pè loraj kap gronde."
+    },
+    {
+      "id": "c1-ht",
+      "kind": "chorus",
+      "lang": "ht",
+      "text": "Ou se dènye ranfò\nLè-w la mwen santi-m fò\nTanpri pa repouse-m, Senyè pitye\nSenyè ban mwen fòs\nW’a ban mwen kouraj\nMenm lè wout la fè nwa\nM-viv ak espwa."
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sht-ruwde9t4nlwt",
+  "titles": {
+    "ht": "Li Te Tande Priyè m"
+  },
+  "hasLanguages": [
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Tout nyaj yo fin pase\nMen limyè jou klere\nE solèy la leve\nPou sa m santi\nM di: \"Alelouya!\"\nMwen konnen sa se vre\nDaprè sa m santi nan kè m\nSovè m nan te tande priyè m."
+    },
+    {
+      "id": "c1-ht",
+      "kind": "chorus",
+      "lang": "ht",
+      "text": "Li te tande priyè m\nLi konnen tout kri kè m\nLi te ban mwen\nYon viktwa ki sèten\nO wi m santi l avè m\nMen jistis li nan kè m\nM konnen Sovè m nan te tande priye"
+    },
+    {
+      "id": "v2-ht",
+      "kind": "verse",
+      "n": 2,
+      "lang": "ht",
+      "text": "Men lennmi an vin di m\nNan figi m ke Kris mouri\nSi chemen an vin di\nLi p'ap aji\nGlwa a Dye se manti\nMwen santi l'ap aji\nM konnen Sovè m nan te tande priyè m"
+    }
+  ],
+  "popular": true
+},
+{
+  "id": "sht-1e20wsdtw8uz",
+  "titles": {
+    "ht": "O ALELOUYA"
+  },
+  "hasLanguages": [
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "O alelouya l’ap tann nou sou tèt mòn nan\nVini pou n’al rankontre li\nNou pap janm konn sa li ka fè\nTout tan nou pa kwè nan li\nVini non, men lape tann ou."
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sen-i03x267lq75y",
+  "titles": {
+    "en": "CLOSER TO YOU LORD"
+  },
+  "hasLanguages": [
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "Closer to you Lord, closer I pray\nHelp me draw closer to your will today\nIt doesn’t matter what others may do\nI want to draw closer to you."
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sen-7ew6i3btidnz",
+  "titles": {
+    "en": "GOODBYE WORLD",
+    "ht": "Babay le mon-n babay"
+  },
+  "hasLanguages": [
+    "en",
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "I’ve told all my troubles goodbye\nGoodbye to each tear and each sigh\nThis world where I roam can not be my home\nI’m bound for a land in the sky\nI walk and I talk with my Lord\nI feast every day on his word\nHeaven is near I can’t stay here\nGoodbye world"
+    },
+    {
+      "id": "c1-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "Now don’t weep for me when I’m gone\nCause I won’t have to leave here alone\nAnd when I hear that last trumpet sound\nMy feet won’t stay on the ground\nGonna rise with a shout gonna fly\nGonna ride with my Lord through the sky\nHeaven is near and I can’t stay here\nGoodbye world, goodbye."
+    },
+    {
+      "id": "v2-en",
+      "kind": "verse",
+      "n": 2,
+      "lang": "en",
+      "text": "I won’t have to wait very long\nFor Jesus is soon to return\nAnd I’ll never fear for I will leave here\nHeartaches and tears ever more\nA day maybe too then goodbye\nTomorrow I’ll rise up and fly\nHeaven is near and I can’t stay here\ngoodbye world, goodbye."
+    },
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Map di tout traka-m yo babay\nBabay tout dLo nan zye babay\nMon-n sa map viv la pakab Lakay mwen, \nm-pral nan yon\nLòt plas nan syel la,\nM-mache e m-prale ak Dieu-M nan, \nm-rejwi chak jou nan Pawòl li,\nSyèl la tou prè mwen pakab\nRete, babay le mon-n babay"
+    },
+    {
+      "id": "c1-ht",
+      "kind": "chorus",
+      "lang": "ht",
+      "text": "Ou pa bezwen kriye lè-m ale\nPaske mwen pap kite mon-n la\nSel,\nE lè-m tande denye son\nTrompet la, pye-m yo pap ret\nSou la tè,\nMap monte ak yon kri map Voyaje, mwen prale avek\nSovè-m nan syel la\nBabay le mon-n babay"
+    },
+    {
+      "id": "v2-ht",
+      "kind": "verse",
+      "n": 2,
+      "lang": "ht",
+      "text": "M-pap genyen pou-m tan-n\nTwo lotan, paske Jezu pa lwen Tounen,\nMwen pap bezwen pè\nPaske m-va kite traka dlo nan\nZye pou tout tan babay, Demen m-va leve e vole, le\nSyel tou pre e mpa kab rete la Babay le mon-n babay"
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sen-5luncf5ltgl2",
+  "titles": {
+    "en": "I AM SO THANKFUL"
+  },
+  "hasLanguages": [
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "I am so thankful, I’m so thankful\nTo be in the Body of Christ\nI am so thankful, I’m so thankful\nI’m striving for eternal life\nWhere the manna is coming down\nYou can hear the trumpet sound\nThe truth of the gospel abounds\nIt’s a rare privilege just to be here\nhere in the Body of Christ."
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sen-t65xyuuxoq8j",
+  "titles": {
+    "en": "IT WILL BE WORTH"
+  },
+  "hasLanguages": [
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "There’s a promised land\nMade for all the free\nWhen our race on earth is run\nWhere no broken dreams\nWill mark our memory\nIt will be worth it all when we get home."
+    },
+    {
+      "id": "c1-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "It will be worth it all\nJust to see his face\nwhen he claims us for his own then ten million\nYears to sing amazing grace\nit will be worth it all when we get home."
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sen-nsdqe1q4y0sc",
+  "titles": {
+    "en": "JESUS I GIVE YOU ALL MY PRAISE"
+  },
+  "hasLanguages": [
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "Jesus I give you all my praise\nJesus I give you all my praise\nyou are worthy Lord\nFor all you’ve done I never could repay\nSo I give you all my praise."
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sen-zzr4yhj87jmv",
+  "titles": {
+    "en": "JESUS, SWEET JESUS",
+    "ht": "Dou Jezi"
+  },
+  "hasLanguages": [
+    "en",
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "Jesus, sweet Jesus\nWhat a wonder you are\nYou’re brighter than the morning star\nYou’re fairer more fairer\nThan the lily that grows by the way\nYou’re precious, more precious than gold."
+    },
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Dou Jezi,Dou Jezi\nAla ou meveye\nOu pi klere ke zetwal le matin\nou pi bel ke bèl fle ki plante bo wout\nou pi presye, pi presye ki lò"
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sen-rxdgh57czkb8",
+  "titles": {
+    "en": "JUST OVER"
+  },
+  "hasLanguages": [
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "I’ve a home prepared where the saints abide\nJust over in the glory land\nAnd I long to be by my Savior’s side\nJust over in the glory land."
+    },
+    {
+      "id": "c1-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "Just over in the glory land\nI’ll join the happy angel band\nJust over in the glory land\nJust over in the glory land\nThere with the mighty host\nI’ll stand Just over in the glory land."
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sen-wc9dfi94d9vk",
+  "titles": {
+    "en": "KEEP ON"
+  },
+  "hasLanguages": [
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "If you’re in the battle for the Lord and right\nKeep on the firing line\nIf you win my brother, surely you must fight\nKeep on the firing line\nThere are many dangers that we all must face\nIf we die still fighting it is no disgrace\nCoward in the service should not have a place\nKeep on firing line"
+    },
+    {
+      "id": "c1-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "You must fight and be brave against all evil\nNever run or lack behind\nIf you would win for God and right\nJust keep on the firing line"
+    },
+    {
+      "id": "v2-en",
+      "kind": "verse",
+      "n": 2,
+      "lang": "en",
+      "text": "God will only use a soldier he can trust\nKeep on the firing line\nIf you wear the crown\nThen bear the cross you must\nKeep on the firing line\nLife is but to labor for the Master dear\nHelp to banish darkness and to spread good cheer\nWe shall be rewarded for our service here\nKeep on the firing line."
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sen-p13z9g2wjny0",
+  "titles": {
+    "en": "LET MY PRAISE BE A REFLECTION"
+  },
+  "hasLanguages": [
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "In my heart was found the darkness of despair\nChains of hopelessness\nEnwrapped me everywhere\nThen I heard about a man who cared for me\nHad such love that He would hang upon a tree."
+    },
+    {
+      "id": "c1-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "Let my praise be a reflection of your grace\nLet my life reflect the glory of your name\nIt is only by your grace that I can bring you praise\nLet my praise be a reflection of your praise."
+    },
+    {
+      "id": "v2-en",
+      "kind": "verse",
+      "n": 2,
+      "lang": "en",
+      "text": "Now my heart has known\nThe peace and joy He brings\nFor my spirit truly knows my savior cares\nFor each time I face a binding chain of need\nI find grace he’s wrapped in love that set me free."
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sen-2iokmcq066dz",
+  "titles": {
+    "en": "LET’S JUST PRAISE THE LORD"
+  },
+  "hasLanguages": [
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "O we thank You for your kindness\nWe thank you for Your love\nWe have been in heavenly places\nFelt blessings from above\nWe’ve been sharing all the good things\nThe family can afford\nLet’s just turn our hearts toward heaven\nAnd praise the Lord."
+    },
+    {
+      "id": "c1-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "Let’s just praise the Lord\nPraise the Lord\nLet’s just lift our hearts to heaven\nAnd praise the Lord\nLet’s just praise the Lord\nPraise the Lord\nLet’s just lift our hearts to heaven\nAnd praise the Lord."
+    },
+    {
+      "id": "v2-en",
+      "kind": "verse",
+      "n": 2,
+      "lang": "en",
+      "text": "Just the precious name of Jesus\nIs worthy of our praise\nLet us bow our knees before him\nOur hands to heaven raise\nWhen He comes in clouds of glory\nWith him to ever reign\nLet’s just lift our happy voices\nAnd praise His name."
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sen-d6i69ltqawgg",
+  "titles": {
+    "en": "LIFT UP YOUR HEADS"
+  },
+  "hasLanguages": [
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "Lift up your heads to the coming King\nBow before him and adore him, sing\nSing to His Majesty\nLet your praises be pure and Holy\nGiving glory to the King of Kings."
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sen-tjgnry8gmu29",
+  "titles": {
+    "en": "LORD I COME TO PRAISE YOUR NAME"
+  },
+  "hasLanguages": [
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "Lord I come to praise your name\nFor your mercy full and free\nI lift my hands to honor you\nThank you for loving me."
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sen-qn27dyfgf7v0",
+  "titles": {
+    "en": "LORD I WANT TO GO"
+  },
+  "hasLanguages": [
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "Lord I want to go\nKeep showing me the way\nLord I want to go\nKeep showing me the way\nLord I want to go\nKeep showing me the way\nTake me by the hands and lead me."
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sen-prye3po1d776",
+  "titles": {
+    "en": "LORD PREPARE ME"
+  },
+  "hasLanguages": [
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "Lord prepare meto be a sanctuary\nPure and holy, tried and true\nWith thanks giving\nI’ll be a living sanctuary for you."
+    }
+  ],
+  "popular": false
+},
+
+{
+  "id": "sen-xqw4o5yreedr",
+  "titles": {
+    "en": "LORD PURIFY MY HEART"
+  },
+  "hasLanguages": [
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "Lord purify my heart\ncleanse and wash the very inward part\nNever let a single thing\nHinder me from yielding everything\nLet my spirit humble be an example\nFor the world to see\nLet me dedicate my life as an accepted sacrifice."
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sen-wc3b69k9ffzy",
+  "titles": {
+    "en": "LOVE LIFTED ME"
+  },
+  "hasLanguages": [
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "I was sinking deep in sin\nFar from the peaceful shore\nVery deeply stained within sinking to rise no more\nBut the Master of the sea heard my despairing cry\nFrom the waters lifted me,now safe am I."
+    },
+    {
+      "id": "c1-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "Love lifted me, love lifted me\nWhen nothing else could help\nLove lifted me\nLove lifted me, love lifted me\nWhen nothing else could help\nLove lifted me."
+    },
+    {
+      "id": "v2-en",
+      "kind": "verse",
+      "n": 2,
+      "lang": "en",
+      "text": "All my heart to him I give, ever to him I’ll cling\nIn his blessed presence live, ever his praises sing\nLove so mighty and so true\nMerits my soul’s best songs\nFaithful, loving service too, to him belongs."
+    },
+    {
+      "id": "v3-en",
+      "kind": "verse",
+      "n": 3,
+      "lang": "en",
+      "text": "Souls in danger, look above Jesus completely\nsaves\nHe will lift you by his love out of the angry waves\nHe’s the Master of the sea billows His will obey\nHe your Saviour wants to be,be saved today."
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sen-usgg2ot491v6",
+  "titles": {
+    "en": "MY GOD IS GREAT"
+  },
+  "hasLanguages": [
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "My God is great\nMy God is mighty\nHe is greater than anything\nSo I’ll stop telling you Lord\nHow big my storm is\nAnd tell my storm how big you are."
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sen-0xmm7rbcwow7",
+  "titles": {
+    "en": "MAKE ME WHAT I OUGHT TO BE"
+  },
+  "hasLanguages": [
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "Make me what I ought to be\nHelp me to be more like thee\nHelp me climb up higher\n‘til thy face I see\nMake me what I ought to be."
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sen-4niyevqvbejz",
+  "titles": {
+    "en": "MY TRIBUTE"
+  },
+  "hasLanguages": [
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "How can I say thanks\nFor the things you have done for me\nThings so undeserved, yet you give\nTo prove your love for me\nThe voices of a million angels\nCould not express my gratitude\nAll that I am and ever hope to be\nI owe it all to Thee."
+    },
+    {
+      "id": "c1-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "To God be the glory, to God be the glory\nTo God be the glory\nFor the things he has done\nWith His blood he has saved me\nWith His power he has raised me\nTo God be the glory\nFor the things he has done."
+    },
+    {
+      "id": "v2-en",
+      "kind": "verse",
+      "n": 2,
+      "lang": "en",
+      "text": "Just let me live my life\nLet it be pleasing Lord to Thee\nAnd should I gain any praise,let it go to Calvary\nWith His blood he has saved me\nWith His power he has raised me\nTo God be the glory for the things he has done."
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sen-u09xltt1q8ka",
+  "titles": {
+    "en": "NOW I HAVE EVERYTHING"
+  },
+  "hasLanguages": [
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "I had nothing but heartaches and troubles\nI was seeking for fortune and fame\nI had nothing but doubts and confusions\nBut now I have everything."
+    },
+    {
+      "id": "c1-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "Everything I need to make me happy\nI have Jesus to show me the way\nHe has saved me and gave me life eternal\nAnd now I have everything."
+    },
+    {
+      "id": "v2-en",
+      "kind": "verse",
+      "n": 2,
+      "lang": "en",
+      "text": "I was making big plans for my future\nI was living my life time in vain\nThen I prayed for life’s only meaning\nAnd now I have everything."
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sen-iafmjk5ziwld",
+  "titles": {
+    "en": "O FOR THOUSAND"
+  },
+  "hasLanguages": [
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "Glory go the lamb\nWhose throne forever reigns\nGod in the highest\nworthy to merit our praise."
+    },
+    {
+      "id": "c1-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "O for a thousand tongues to sing\nPraises unto Thee\nO for a thousand hands to raise\nIn honor to the King."
+    },
+    {
+      "id": "v2-en",
+      "kind": "verse",
+      "n": 2,
+      "lang": "en",
+      "text": "We crown you with singing\nOur lips shall utter your praise\nIn humble adoration\nIn endless refrain."
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sen-u4muqxde7bd9",
+  "titles": {
+    "en": "PSALM 42"
+  },
+  "hasLanguages": [
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "As the heart longs for flowing streams\nSo longs my soul for you O God\nMy soul does thirst for the living God\nWhen shall I come to see your face."
+    },
+    {
+      "id": "v2-en",
+      "kind": "verse",
+      "n": 2,
+      "lang": "en",
+      "text": "My tears have fed me day and night\nWhile men have said\n“Where is your God?”\nBut I recall as my soul pours dry\nThe days of praise within your house."
+    },
+    {
+      "id": "v3-en",
+      "kind": "verse",
+      "n": 3,
+      "lang": "en",
+      "text": "Why do I mourn and toil within?\nWhen it is mine to hope in God\nI shall again sing praise to him\nHe is my help, He is my God."
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sen-fc6h7063per5",
+  "titles": {
+    "en": "PUT JESUS FIRST"
+  },
+  "hasLanguages": [
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "Put Jesus first, first in your life\nHe is a true friend unto the end\nJust take him with you wherever you go\nPut Jesus first in your life."
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sen-69pipl90zqtg",
+  "titles": {
+    "en": "SPEAK HIS NAME"
+  },
+  "hasLanguages": [
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "Speak his name, the name of Jesus\nSpeak his name his spirit frees us\nIt does not matter where you are\nThere is no distance that’s too far\nHe’ll come to you, just speak his name."
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sen-1jeb4f0lgypt",
+  "titles": {
+    "en": "STEADFAST"
+  },
+  "hasLanguages": [
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "Steadfast, immovable, I’m keeping my ground\nSteadfast, immovable, I won’t be turned around\nNothing can persuade me to give up the goal\nFor I’m fixed, fixed to the rock\nFixed to the rock\nGonna make heaven my home."
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sen-1i2iqbg1li1j",
+  "titles": {
+    "en": "THANK YOU LORD"
+  },
+  "hasLanguages": [
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "The only time dear Lord it seems\nWe ever come to talk to you\nIs when we have a special need\nOr special work for you to do\nYou’re so much more than just someone\nWho comes running when we call\nYou’re still Lord of Lords\nAnd King of Kings to your children Lord of all."
+    },
+    {
+      "id": "c1-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "Thank you Lord (2x)\nWe just want to praise your name\nAnd thank you Lord\nFor your mercy and your grace\nFor meeting with us in this place\nWe just want to praise your name\nAnd thank you Lord."
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sen-khhntp7aa00v",
+  "titles": {
+    "en": "TO GOD BE THE GLORY"
+  },
+  "hasLanguages": [
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "How can I say thanks\nFor the things you have done for me\nThings so undeserved\nYet you give to prove your love for me\nThe voices of a million angels\nCannot express my gratitude\nFor all that I am and ever ought to be\nI owe it all to thee."
+    },
+    {
+      "id": "c1-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "To God be the glory\nTo God be the glory\nFor the things he has done\nWith his love, he has saved me\nWith his power, he has raised me\nTo God be the glory for the things he has done."
+    }
+  ],
+  "popular": false
+},{
+  "id": "sen-xxtbvq9px2gp",
+  "titles": {
+    "en": "WE’RE HERE TO WORSHIP JESUS"
+  },
+  "hasLanguages": [
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "We’re here to worship Jesus\nThe Father of creation\nWe’ve come to give him glory\nHe’s the author of Salvation\nFor he alone is worthy\nTo receive our adoration\nWe’re here just to worship the Lord."
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sen-cpe3ihw3c801",
+  "titles": {
+    "en": "Fe’m yon kredi"
+  },
+  "hasLanguages": [
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "Fe’m yon kredi segne\nByenke mpa kalifye\nMwen pwomet ou\nMap peye’w ak pri lavi mwen\nOoo mwen vle ba ou\nYon ofrand ki diy\nTanpri segne fe’m gras"
+    }
+  ],
+  "popular": false
 }
+
+
       
  ]
 }

@@ -18,6 +18,7 @@ import { SearchProvider } from "./store/search";
 import { SettingsProvider } from "./store/settings";
 import { LibraryProvider } from "./store/library";
 import { readJSON } from "./lib/storage";
+import SplashGate from "./components/SplashGate";
 
 function Layout() {
   const { pathname } = useLocation();
@@ -62,6 +63,7 @@ export default function App() {
         <SettingsProvider>
           <SearchProvider>
             <ErrorBoundary>
+              <SplashGate />
               <Layout />
             </ErrorBoundary>
           </SearchProvider>

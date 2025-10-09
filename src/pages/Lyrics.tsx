@@ -232,7 +232,7 @@ function flagSong() {
         </Link>
 
         <div className="flex-1 text-center">
-         <h1 className="text-base font-semibold" style={{ color: "#000" }}>
+         <h1 className="text-base font-semibold uppercase" style={{ color: "#000" }}>
           {pickTitle(song, { prefer: lang, fallbacks: song.hasLanguages as LangCode[] })}
         </h1>
         </div>

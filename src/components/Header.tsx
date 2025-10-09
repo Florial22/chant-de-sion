@@ -9,7 +9,8 @@ export default function Header() {
   const showSearch =
     pathname !== "/reglages" &&
     !pathname.startsWith("/explorer") &&
-    !pathname.startsWith("/live");
+    !pathname.startsWith("/live") &&
+    !pathname.startsWith("/favoris");
 
   return (
     <header

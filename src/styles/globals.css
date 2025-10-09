@@ -9,7 +9,7 @@
 
 html, body, #root { height: 100%; background: #e2eee4; color: #000; }
 
-/* Line clamp helper since we didn't add the plugin */
+/* line clamping utility */
 .line-clamp-2 {
   display: -webkit-box;
   -webkit-line-clamp: 2;

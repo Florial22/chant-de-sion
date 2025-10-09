@@ -15,7 +15,8 @@ type Keys =
   | "exploreforward" | "exploreback" | "explorePage"
   | "watchLive" | "liveloading" | "notavaiableFlux" | "unaabletochargelive"
   | "faoritesLoading" | "favoritesNoSongs" | "appName"
-  |  "channels" | "channelsHeader" | "visitChannel" | "channelsEmpty" | "unableToLoadChannels";
+  |  "channels" | "channelsHeader" | "visitChannel" | "channelsEmpty" | "unableToLoadChannels" 
+  | "appAcronym";
 const M: Record<"fr" | "en", Record<Keys, string>> = {
   fr: {
     home: "Accueil",
@@ -60,6 +61,7 @@ const M: Record<"fr" | "en", Record<Keys, string>> = {
     faoritesLoading: "Chargement des favoris…",
     favoritesNoSongs: "Vous n’avez pas encore de favoris.",
     appName: "Chant de Sion",
+    appAcronym: "C.D.S",
     channels: "Chaînes",
     channelsHeader: "Chaînes YouTube",
     visitChannel: "Visiter la chaîne",
@@ -110,6 +112,7 @@ const M: Record<"fr" | "en", Record<Keys, string>> = {
     faoritesLoading: "Loading favorites…",
     favoritesNoSongs: "You don't have any favorites yet.",
     appName: "Song of Zion",
+    appAcronym: "S.O.Z",
     channels: "Channels",
     channelsHeader: "YouTube Channels",
     visitChannel: "Visit channel",
