@@ -56,7 +56,7 @@ export default function Live() {
             if (alive) {
               setData(fallback);
               setStatus("ok");
-              setError("Hors ligne — données en cache affichées.");
+              setError("Local");
             }
             return;
           }

@@ -39,6 +39,7 @@ export default function BottomNav() {
           <Item to="/explorer" label={t("explore")}   icon={Compass} />
           <Item to="/live"     label={t("channels")}  icon={Tv} />
           <Item to="/favoris"  label={t("favorites")} icon={Heart} />
+          {/* <Item to="/priere" label={t("prayer")}  icon={Bell} /> */}
           <Item to="/reglages" label={t("settings")}  icon={SettingsIcon} />
         </div>
       </div>

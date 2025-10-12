@@ -16,7 +16,14 @@ type Keys =
   | "watchLive" | "liveloading" | "notavaiableFlux" | "unaabletochargelive"
   | "faoritesLoading" | "favoritesNoSongs" | "appName"
   |  "channels" | "channelsHeader" | "visitChannel" | "channelsEmpty" | "unableToLoadChannels" 
-  | "appAcronym";
+  | "appAcronym" | "prayer" | "schedulePrayer" | "noPrayeryet" | "Hour" | "day"
+  | "langofSongSuggestion"
+  | "dowSunShort" | "dowMonShort" | "dowTueShort" | "dowWedShort" | "dowThuShort" | "dowFriShort" | "dowSatShort"
+  | "language" | "current" | "delete" | "suggestion" | "keepEmpty"
+  | "previewSugestion" | "addReminder" | "noSongAvailable"
+  | "reminder" | "allday" | "welcome" 
+  | "welcomeMessage" | "loadingdError" | "backHome" | "present" | "shortCut"
+  | "leave" | "clearSearch" | "searchAriaLabel";
 const M: Record<"fr" | "en", Record<Keys, string>> = {
   fr: {
     home: "Accueil",
@@ -67,7 +74,38 @@ const M: Record<"fr" | "en", Record<Keys, string>> = {
     visitChannel: "Visiter la chaîne",
     channelsEmpty: "Aucune chaîne disponible.",
     unableToLoadChannels: "Impossible de charger la liste des chaînes.",
-
+    prayer: "Prière",
+    schedulePrayer: "Programmer une prière",
+    noPrayeryet: "Vous n'avez pas encore de rappels de prière.",
+    Hour: "Time",
+    day: "Jour",
+    langofSongSuggestion: "Langue des suggestions de chants",
+    dowSunShort: "Dim",
+    dowMonShort: "Lun",
+    dowTueShort: "Mar",
+    dowWedShort: "Mer",
+    dowThuShort: "Jeu",
+    dowFriShort: "Ven",
+    dowSatShort: "Sam",
+    language: "Langue",
+    current: "Actif",
+    delete: "Supprimer",
+    suggestion: "suggestion",
+    keepEmpty: "Laissez vide pour “Tous les jours”.",
+    previewSugestion: "Aperçu des suggestions",
+    addReminder: "Ajouter un rappel",
+    noSongAvailable: "Aucun chant disponible.",
+    reminder: "rappel",
+    allday: "Tous les jours",
+    welcome: "Bienvenue",
+    loadingdError: "Erreur de chargement.",
+    welcomeMessage: "Découvrez, cherchez vos cantiques facilement. \n « Chantez à l'Éternel un cantique nouveau ». \n Que chaque mélodie soit une prière et un enseignement pour votre cœur.\n 🎶✨",
+    backHome: "Retour à l’accueil",
+    present: "Présenter",
+    shortCut: "Raccourcis",
+    leave: "Quitter",
+    clearSearch: "Effacer la recherche",
+    searchAriaLabel: "Recherche",
   },
   en: {
     home: "Home",
@@ -118,6 +156,38 @@ const M: Record<"fr" | "en", Record<Keys, string>> = {
     visitChannel: "Visit channel",
     channelsEmpty: "No channels available.",
     unableToLoadChannels: "Unable to load channels list.",
+    prayer: "Prayer",
+    schedulePrayer: "Schedule prayer",
+    noPrayeryet: "You don't have any prayer reminders yet.",
+    Hour: "Time",
+    day: "Day",
+    langofSongSuggestion: "Language of song suggestions",
+    dowSunShort: "Sun",
+    dowMonShort: "Mon",
+    dowTueShort: "Tue",
+    dowWedShort: "Wed",
+    dowThuShort: "Thu",
+    dowFriShort: "Fri",
+    dowSatShort: "Sat",
+    current: "Actif",
+    language: "Language",
+    delete: "Delete",
+    suggestion: "suggestion",
+    keepEmpty: "Leave empty for 'All Days'.",
+    previewSugestion: "Preview suggestions",
+    addReminder: "Add reminder",
+    noSongAvailable: "No vailable song.",
+    reminder: "reminder",
+    allday: "All days",
+    welcome: "Welcome",
+    loadingdError: "Loading error.",
+    welcomeMessage: "Discover and search your songs easily. \n 'Sing to the Lord a new song.' \n May each melody be a prayer and a teaching for your heart.\n 🎶✨",
+    backHome: "Back to home",
+    present: "presantation",
+    shortCut: "Shortcuts",
+    leave: "Leave",
+    clearSearch: "Clear search",
+    searchAriaLabel: "Search",
   },
 };
 

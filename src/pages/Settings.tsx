@@ -1,4 +1,5 @@
 import { useSettings } from "../store/settings";
+import { Link } from "react-router-dom";
 import { useT } from "../lib/i18n";
 
 export default function Settings() {
@@ -117,6 +118,17 @@ export default function Settings() {
           appliquer la valeur par défaut au prochain chant.
         </p> */}
       </section>
+
+      {/* schedule prayer */}
+      <div className="mt-6">
+        <Link
+          to="/priere"
+          className="inline-block rounded-full border border-black/10 bg-white px-4 py-2 shadow-sm"
+          style={{ color: "#000" }}
+        >
+          {settings.uiLanguage === "en" ? "Manage prayer reminders" : "Gérer les rappels de prière"}
+        </Link>
+      </div>
 
       {/* Version */}
       <div className="mt-6 rounded-2xl border border-black/10 bg-white p-4 shadow-sm">

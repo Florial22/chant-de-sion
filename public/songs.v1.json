@@ -1556,7 +1556,7 @@
       "kind": "verse",
       "n": 2,
       "lang": "en",
-      "text": "He’s all I need, I need not turn to any other\nFor He’s a friend\nA friend who’s closer than a brother\nOn this friend, I can rely\nto be my strenght as time goes by\nHe’s the Lord of Lords and He’s all I need."
+      "text": "He’s all I need, I need not turn to any other\nFor He’s a friend\nA friend who’s closer than a brother\nOn this friend, I can rely\nto be my strength as time goes by\nHe’s the Lord of Lords and He’s all I need."
     },
     {
       "id": "v1-ht",
@@ -6638,7 +6638,20 @@
       "kind": "verse",
       "n": 1,
       "lang": "en",
-      "text": "It was God’s mercy and his great love\nthat brought salvation down to man\nit was his kingdom and his power\nthat did reveal God’s mighty plan\nto all that chosen of the Lord\nAnd those who work in one accord\nEternal life and joy will be their\nreward.\nke\nIt’s a good life\nThe Lord has giving me\nI don’t have to serve\nthis world anymore\nI have a family who cares\nAnd a Lord who never fails\nOh Praise his name\nI want to live my life for him"
+      "text": "It was God’s mercy and his great love\nthat brought salvation down to man\nit was his kingdom and his power\nthat did reveal God’s mighty plan\nto all that chosen of the Lord\nAnd those who work in one accord\nEternal life and joy will be their reward."
+    },
+    {
+      "id": "c1-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "It’s a good life\nThe Lord has giving me\nI don’t have to serve\nthis world anymore\nI have a family who cares\nAnd a Lord who never fails\nOh Praise his name\nI want to live my life for him."
+    },
+    {
+      "id": "v2-en",
+      "kind": "verse",
+      "n": 2,
+      "lang": "en",
+      "text": "I’m so thankful that my eyes can see\nAnd a heart that understands\nI’m so thankful for the truth I know\nAnd the chance I have to serve the Lord\nI have a vision to keep pressing on\nday by day I want to walk the narrow way."
     }
   ],
   "popular": true
@@ -17516,27 +17529,6 @@
   ],
   "popular": false
 },
-
-{
-  "id": "sht-sbrmyc3mh4wo",
-  "titles": {
-    "ht": "ENVOKE NOM-L"
-  },
-  "hasLanguages": [
-    "ht"
-  ],
-  "stanzas": [
-    {
-      "id": "v1-ht",
-      "kind": "verse",
-      "n": 1,
-      "lang": "ht",
-      "text": "Envoke nom-l, le nom de Jezi\nEnvoke nom-l, lespri libere nou\nKelke swa kote-w ta kwense\nPa gen sibstans ki twòp pou li\nL’ap vin jwenn ou, envoke nom-l."
-    }
-  ],
-  "popular": false
-},
-
 {
   "id": "sht-x6ltg7lk04o5",
   "titles": {

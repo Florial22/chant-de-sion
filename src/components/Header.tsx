@@ -10,7 +10,8 @@ export default function Header() {
     pathname !== "/reglages" &&
     !pathname.startsWith("/explorer") &&
     !pathname.startsWith("/live") &&
-    !pathname.startsWith("/favoris");
+    !pathname.startsWith("/favoris") &&
+    !pathname.startsWith("/priere");
 
   return (
     <header

@@ -20,6 +20,13 @@ import { LibraryProvider } from "./store/library";
 import { readJSON } from "./lib/storage";
 import SplashGate from "./components/SplashGate";
 
+import { PrayerProvider } from "./store/prayer";
+import PrayerScheduler from "./components/PrayerScheduler";
+import NotificationBridge from "./components/NotificationBridge";
+import Prayer from "./pages/Prayer";
+import { initNotificationChannels } from "./lib/notificationsInit";
+import PrayerNow from "./pages/PrayerNow";
+
 function Layout() {
   const { pathname } = useLocation();
   const navigate = useNavigate();
@@ -38,6 +45,8 @@ function Layout() {
     }
   }, [isWelcome, pathname, navigate]);
 
+  useEffect(() => { initNotificationChannels(); }, []);
+
   return (
     <div className="min-h-screen pb-20">
       {!hideChrome && <Header />}
@@ -49,7 +58,9 @@ function Layout() {
         <Route path="/favoris" element={<Favorites />} />
         <Route path="/reglages" element={<Settings />} />
         <Route path="/song/:id" element={<Lyrics />} />
+        <Route path="/priere" element={<Prayer />} />
         <Route path="/admin/banner" element={<AdminBanner />} />
+        <Route path="/priere/maintenant" element={<PrayerNow />} />
       </Routes>
       {!hideChrome && <BottomNav />}
     </div>
@@ -61,12 +72,16 @@ export default function App() {
     <BrowserRouter>
       <LibraryProvider>
         <SettingsProvider>
+          <PrayerProvider>
           <SearchProvider>
             <ErrorBoundary>
               <SplashGate />
+              <PrayerScheduler />     
+              <NotificationBridge />
               <Layout />
             </ErrorBoundary>
           </SearchProvider>
+          </PrayerProvider>
         </SettingsProvider>
       </LibraryProvider>
     </BrowserRouter>

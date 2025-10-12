@@ -16,3 +16,24 @@ html, body, #root { height: 100%; background: #e2eee4; color: #000; }
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+/* Hide native clear (WebKit: Safari/iOS/Chrome) */
+.no-native-clear::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+/* Hide extra WebKit decorations just in case */
+.no-native-clear::-webkit-search-decoration {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* Hide native clear (Edge/IE legacy) */
+.no-native-clear::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}

@@ -1,22 +1,55 @@
-import type { CapacitorConfig } from '@capacitor/cli';
+import type { CapacitorConfig } from "@capacitor/cli";
 
-const config: CapacitorConfig = {
-  appId: 'com.florial.chantdesion',
-  appName: 'Chant de Sion',
-  webDir: 'dist',
+
+type ConfigWithAssets = CapacitorConfig & {
+  assets?: {
+    ios?: {
+      image?: string;
+      backgroundColor?: string;
+      darkImage?: string;
+      darkBackgroundColor?: string;
+    };
+    android?: {
+      image?: string;
+      backgroundColor?: string;
+      darkImage?: string;
+      darkBackgroundColor?: string;
+    };
+  };
+};
+
+const config: ConfigWithAssets = {
+  appId: "com.florial.chantdesion",
+  appName: "Chant de Sion",
+  webDir: "dist",
+
+  // Native WebView background colors 
+  ios: { backgroundColor: "#417956" },
+  android: { backgroundColor: "#417956" },
+
+  // Used by @capacitor/assets generator
+  assets: {
+    ios: {
+      image: "assets/splash/splash.png",         // <-- make sure this file exists
+      backgroundColor: "#E2EEE4",
+      // dark mode support for updates
+      // darkImage: "assets/splash/splash-dark.png",
+      // darkBackgroundColor: "#0B0B0B",
+    },
+  },
 
   plugins: {
     SplashScreen: {
-      launchShowDuration: 1200,          // show ~1.2s on cold start
-      launchAutoHide: true,              // auto hide after duration
-      launchFadeOutDuration: 250,        // smooth fade out
-      backgroundColor: '#417956',        // your accent
+      launchShowDuration: 1200,
+      launchAutoHide: true,
+      launchFadeOutDuration: 250,
+      backgroundColor: "#417956",
       showSpinner: false,
-      androidScaleType: 'CENTER_CROP',
+      androidScaleType: "CENTER_CROP",
       splashImmersive: true,
-      useDialog: false
-    }
-  }
+      useDialog: false,
+    },
+  },
 };
 
 export default config;

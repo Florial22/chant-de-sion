@@ -9,14 +9,15 @@ import { useSettings } from "../store/settings";
 import { ChevronLeft, ChevronRight, Flag } from "lucide-react";
 import { pickTitle } from "../lib/pickTitle";
 import { bumpView, addDwell } from "../lib/engagement";
+import { useT } from "../lib/i18n";
 
 
 
 
 
 function labelFor(stanza: Stanza): string {
-  if (stanza.kind === "chorus") return "Refrain";
-  if (stanza.kind === "verse") return typeof stanza.n === "number" ? `Couplet ${stanza.n}` : "Couplet";
+  if (stanza.kind === "chorus") return "Chorus";
+  if (stanza.kind === "verse") return typeof stanza.n === "number" ? `Couplet ${stanza.n}` : "Verse";
   if (stanza.kind === "bridge") return "Pont";
   return "";
 }
@@ -32,11 +33,12 @@ export default function Lyrics() {
   const { songs, status, error } = useLibrary();
 
   const { settings } = useSettings();
+  const t = useT();
   
   
 
   if (status === "loading") {
-    return <div className="safe-top px-4 py-6">Chargement du chant…</div>;
+    return <div className="safe-top px-4 py-6"> {t("exploreSongsLoading")}  </div>; 
   }
 
   if (status === "error") {
@@ -46,9 +48,9 @@ export default function Lyrics() {
       <pre className="text-xs text-black/70 bg-white/70 p-2 rounded border border-black/10">
         {String(error || "Inconnue")}
       </pre>
-      <p className="mt-3 text-sm">
+      {/* <p className="mt-3 text-sm">
         Ouvrez <code>songs.v1.json</code> dans le navigateur pour vérifier le fichier.
-      </p>
+      </p> */}
     </div>
   );
 }
@@ -58,8 +60,8 @@ const song = useMemo(() => songs.find((s) => s.id === id), [songs, id]);
   if (!song) {
     return (
       <div className="safe-top px-4 py-6">
-        <p className="mb-4">Chant introuvable.</p>
-        <Link to="/" className="underline">Retour à l’accueil</Link>
+        <p className="mb-4">{t("noneFound")}</p>
+        <Link to="/" className="underline">{t("backHome")}</Link>
       </div>
     );
   }
@@ -123,8 +125,8 @@ function flagSong() {
   if (total === 0) {
   return (
     <div className="safe-top px-4 py-6">
-      <p className="mb-2">Ce chant n’a pas encore de paroles.</p>
-      <Link to="/" className="underline">Retour à l’accueil</Link>
+      <p className="mb-2">{t("noneFound")}</p>
+      <Link to="/" className="underline">{t("backHome")}</Link>
     </div>
   );
 }
@@ -267,7 +269,7 @@ function flagSong() {
           </div>
           <button onClick={enterPresentation} className="ml-1 hidden lg:inline-flex px-2.5 py-1.5 text-xs rounded border"
             style={{ background:"#fff", color:"#000", borderColor:"rgba(0,0,0,0.15)" }} title="Mode présentation (plein écran)">
-            Présenter ⤢
+            {t("present")} ⤢
           </button>
         </div>
       </div>
@@ -347,7 +349,7 @@ function flagSong() {
               <button onClick={() => switchLang("ht")} disabled={!canHT} className="px-2 py-1 text-xs rounded border" title="HT">HT</button>
               <button onClick={() => setMask((m)=> (m==="black"?"none":"black"))} className="px-2.5 py-1.5 rounded border">B</button>
               <button onClick={() => setMask((m)=> (m==="white"?"none":"white"))} className="px-2.5 py-1.5 rounded border">W</button>
-              <button onClick={exitPresentation} className="ml-1 px-3 py-1.5 rounded border" title="Quitter (Esc)">Quitter</button>
+              <button onClick={exitPresentation} className="ml-1 px-3 py-1.5 rounded border" title="Quitter (Esc)">{t("leave")}</button>
 
             </div>
           </div>
@@ -360,7 +362,7 @@ function flagSong() {
             </div>
           </div>
           <div className="absolute bottom-3 left-1/2 -translate-x-1/2 text-xs px-3 py-1.5 rounded bg-white/70 border border-black/10 shadow transition-opacity" style={{ opacity: hudVisible ? 1 : 0, color:"#000" }}>
-            Raccourcis : ←/→, +/−, L, B, W, Échap
+            {t("shortCut")} : ←/→, +/−, L, B, W, Esc
           </div>
         </div>
       )}

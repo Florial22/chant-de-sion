@@ -13,30 +13,51 @@ export type Settings = {
 
 const SETTINGS_KEY = "cds:settings:v1"; // keep same key for seamless migration
 const ZOOM_KEY = "cds:zoom:v1";
+const UI_SET_FLAG = "cds:settings:uiLangSetByUser"; // marks explicit user choice
 
-// App-wide defaults
+// App-wide defaults (used as fallback)
 const defaults: Settings = {
   preferredLanguage: "auto",
   defaultFontSize: 20,
   uiLanguage: "fr", // default UI in French
 };
 
+// Detect browser/system language (FR/EN only; fallback FR)
+function detectBrowserUiLang(): "fr" | "en" {
+  try {
+    const tag = (navigator?.language || navigator?.languages?.[0] || "fr").toLowerCase();
+    if (tag.startsWith("en")) return "en";
+    if (tag.startsWith("fr")) return "fr";
+  } catch {}
+  return "fr";
+}
+
 function load(): Settings {
   try {
     const raw = localStorage.getItem(SETTINGS_KEY);
-    if (!raw) return defaults;
+
+    // First run → seed from system/browser language (FR/EN) instead of hardcoded default
+    if (!raw) {
+      return {
+        preferredLanguage: "auto",
+        defaultFontSize: 20,
+        uiLanguage: detectBrowserUiLang(),
+      };
+    }
+
     const obj = JSON.parse(raw) ?? {};
 
     // Build the settings with safe fallbacks (migrates older saves automatically)
     const s: Settings = {
       preferredLanguage: (obj.preferredLanguage ?? defaults.preferredLanguage) as PrefLang,
       defaultFontSize: Number.isFinite(obj.defaultFontSize) ? Number(obj.defaultFontSize) : defaults.defaultFontSize,
-      uiLanguage: (obj.uiLanguage ?? defaults.uiLanguage) as UiLanguage,
+      // If uiLanguage wasn’t saved yet, detect from browser
+      uiLanguage: (obj.uiLanguage ?? detectBrowserUiLang()) as UiLanguage,
     };
 
     // Guard invalid values
     if (!["auto", "fr", "en", "ht"].includes(s.preferredLanguage)) s.preferredLanguage = "auto";
-    if (!["fr", "en"].includes(s.uiLanguage)) s.uiLanguage = defaults.uiLanguage;
+    if (!["fr", "en"].includes(s.uiLanguage)) s.uiLanguage = "fr";
     if (!Number.isFinite(s.defaultFontSize)) s.defaultFontSize = defaults.defaultFontSize;
 
     // Clamp font size to sensible bounds (matches Lyrics page behavior)
@@ -44,7 +65,12 @@ function load(): Settings {
 
     return s;
   } catch {
-    return defaults;
+    // If anything goes wrong, fall back to FR
+    return {
+      preferredLanguage: "auto",
+      defaultFontSize: 20,
+      uiLanguage: "fr",
+    };
   }
 }
 
@@ -84,10 +110,13 @@ export function SettingsProvider({ children }: { children: React.ReactNode }) {
         save(next);
       },
       setUiLanguage: (lang) => {
-        const safe = (lang === "en" || lang === "fr") ? lang : "fr";
+        const safe: UiLanguage = lang === "en" ? "en" : "fr";
         const next: Settings = { ...settings, uiLanguage: safe };
         setSettings(next);
         save(next);
+        try {
+          localStorage.setItem(UI_SET_FLAG, "yes"); // remember user explicitly chose
+        } catch {}
       },
       clearLyricsZoom: () => {
         try {
