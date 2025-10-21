@@ -15716,26 +15716,6 @@
 },
 
 {
-  "id": "sht-b4giwkizxw1z",
-  "titles": {
-    "ht": "AN NOU LEVE MEN NOU"
-  },
-  "hasLanguages": [
-    "ht"
-  ],
-  "stanzas": [
-    {
-      "id": "v1-ht",
-      "kind": "verse",
-      "n": 1,
-      "lang": "ht",
-      "text": "An nou leve men nou, louwe Bon Dye nou an\nPaske li wè nou te fin pèdi nan fòs la\nLi ban-n revelasyon, li met pye-n sou wòk la\nKlere wout la devan-n, n’ap mache vè siyon."
-    }
-  ],
-  "popular": false
-},
-
-{
   "id": "sht-yxvfbno4p596",
   "titles": {
     "ht": "AN NOU LEVE MEN"
@@ -17830,26 +17810,6 @@
       "n": 4,
       "lang": "ht",
       "text": "Pa santi-w satisfè ak ti sa-w deja jwenn\nMen louwe Bon Dye pou sa-l va fè pou ou\nFouye pi fon pa janm santi ou fatige\nE kwè Bon Dye ou va rive jwenn wòch la."
-    }
-  ],
-  "popular": false
-},
-
-{
-  "id": "sht-a2rfjuu9wqe3",
-  "titles": {
-    "ht": "G’ON BAGAY K’AP RIVE"
-  },
-  "hasLanguages": [
-    "ht"
-  ],
-  "stanzas": [
-    {
-      "id": "v1-ht",
-      "kind": "verse",
-      "n": 1,
-      "lang": "ht",
-      "text": "G’on bagay kap rive lè n’ap louwe Dye\nG’on bagay kap rive lè n’ap louwe Dye\nG’on bagay kap rive lè n’ap louwe Dye\nLouwe li wete-n nan prizon."
     }
   ],
   "popular": false

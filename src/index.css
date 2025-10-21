@@ -11,6 +11,9 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* Safe-area var used by the bottom nav (no extra margins anywhere else) */
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
 }
 
 a {
@@ -22,12 +25,29 @@ a:hover {
   color: #535bf2;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
+  /* IMPORTANT: do not make body a flex container; it can affect fixed elements */
+  display: block;
   min-width: 320px;
+
+  /* Viewport height with iOS-friendly dynamic units */
   min-height: 100vh;
+  -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
+  overscroll-behavior-y: contain;
+}
+
+@supports (height: 100dvh) {
+  body { min-height: 100dvh; }
+}
+
+#root {
+  height: 100%;
 }
 
 h1 {
@@ -66,6 +86,3 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
-
-html, body, #root { height: 100%; }
-body { overflow-x: hidden; overscroll-behavior-y: contain; }
