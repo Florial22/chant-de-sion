@@ -23,7 +23,7 @@ type Keys =
   | "previewSugestion" | "addReminder" | "noSongAvailable"
   | "reminder" | "allday" | "welcome" 
   | "welcomeMessage" | "loadingdError" | "backHome" | "present" | "shortCut"
-  | "leave" | "clearSearch" | "searchAriaLabel";
+  | "leave" | "clearSearch" | "searchAriaLabel" | "melody";
 const M: Record<"fr" | "en", Record<Keys, string>> = {
   fr: {
     home: "Accueil",
@@ -106,6 +106,7 @@ const M: Record<"fr" | "en", Record<Keys, string>> = {
     leave: "Quitter",
     clearSearch: "Effacer la recherche",
     searchAriaLabel: "Recherche",
+    melody: "Mélodie",
   },
   en: {
     home: "Home",
@@ -188,6 +189,7 @@ const M: Record<"fr" | "en", Record<Keys, string>> = {
     leave: "Leave",
     clearSearch: "Clear search",
     searchAriaLabel: "Search",
+    melody: "Melody",
   },
 };
 

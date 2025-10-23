@@ -1,5 +1,5 @@
 import { useSettings } from "../store/settings";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { useT } from "../lib/i18n";
 
 export default function Settings() {
@@ -22,7 +22,7 @@ export default function Settings() {
       }}
     >
       <h1 className="text-lg font-semibold mb-4" style={{ color: "#000" }}>
-        {t("settings")}  
+        {t("settings")}
       </h1>
 
       {/* Langue de l'interface (UI) */}
@@ -57,6 +57,9 @@ export default function Settings() {
         </p>
       </section>
 
+      {/* Divider */}
+      <hr className="my-6 border-t border-black/10" />
+
       {/* Langue préférée du contenu (paroles) */}
       <section className="mb-6">
         <h2 className="text-sm font-medium mb-2" style={{ color: "#000" }}>
@@ -83,6 +86,9 @@ export default function Settings() {
           {t("preferredLanguagelabel")}
         </p>
       </section>
+
+      {/* Divider */}
+      <hr className="my-6 border-t border-black/10" />
 
       {/* Taille de texte par défaut (lecture) */}
       <section className="mb-6">
@@ -119,16 +125,8 @@ export default function Settings() {
         </p> */}
       </section>
 
-      {/* schedule prayer */}
-      <div className="mt-6">
-        <Link
-          to="/priere"
-          className="inline-block rounded-full border border-black/10 bg-white px-4 py-2 shadow-sm"
-          style={{ color: "#000" }}
-        >
-          {settings.uiLanguage === "en" ? "Manage prayer reminders" : "Gérer les rappels de prière"}
-        </Link>
-      </div>
+      {/* Divider */}
+      <hr className="my-6 border-t border-black/10" />
 
       {/* Version */}
       <div className="mt-6 rounded-2xl border border-black/10 bg-white p-4 shadow-sm">

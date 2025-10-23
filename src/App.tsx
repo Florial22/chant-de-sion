@@ -26,6 +26,8 @@ import NotificationBridge from "./components/NotificationBridge";
 import Prayer from "./pages/Prayer";
 import { initNotificationChannels } from "./lib/notificationsInit";
 import PrayerNow from "./pages/PrayerNow";
+import MelodyPage from "./pages/Melody";
+import { MelodiesProvider } from "./store/melodies";
 
 function Layout() {
   const { pathname } = useLocation();
@@ -61,6 +63,7 @@ function Layout() {
         <Route path="/priere" element={<Prayer />} />
         <Route path="/admin/banner" element={<AdminBanner />} />
         <Route path="/priere/maintenant" element={<PrayerNow />} />
+        <Route path="/melody" element={<MelodyPage />} />
       </Routes>
       {!hideChrome && <BottomNav />}
     </div>
@@ -71,18 +74,20 @@ export default function App() {
   return (
     <BrowserRouter>
       <LibraryProvider>
-        <SettingsProvider>
-          <PrayerProvider>
-          <SearchProvider>
-            <ErrorBoundary>
-              <SplashGate />
-              <PrayerScheduler />     
-              <NotificationBridge />
-              <Layout />
-            </ErrorBoundary>
-          </SearchProvider>
-          </PrayerProvider>
-        </SettingsProvider>
+        <MelodiesProvider>
+          <SettingsProvider>
+            <PrayerProvider>
+            <SearchProvider>
+              <ErrorBoundary>
+                <SplashGate />
+                <PrayerScheduler />     
+                <NotificationBridge />
+                <Layout />
+              </ErrorBoundary>
+            </SearchProvider>
+            </PrayerProvider>
+          </SettingsProvider>
+        </MelodiesProvider>
       </LibraryProvider>
     </BrowserRouter>
   );

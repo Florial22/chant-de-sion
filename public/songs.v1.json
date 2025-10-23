@@ -18234,27 +18234,6 @@
   ],
   "popular": false
 },
-
-{
-  "id": "sht-1mwfhg8kzzko",
-  "titles": {
-    "ht": "GIDE PYE-M"
-  },
-  "hasLanguages": [
-    "ht"
-  ],
-  "stanzas": [
-    {
-      "id": "v1-ht",
-      "kind": "verse",
-      "n": 1,
-      "lang": "ht",
-      "text": "Gide pye-m e kenbe men mwen\nAnsenye mwen tout lwa ou yo\nKonnen-w te chwazi-m\nPou-m te viv nan plan-w\nPou-m te kabab soumèt\nE pou-m swiv lwa ou."
-    }
-  ],
-  "popular": false
-},
-
 {
   "id": "sht-o7qdrdp1cej0",
   "titles": {
@@ -18759,34 +18738,6 @@
   ],
   "popular": false
 },
-
-{
-  "id": "sht-2tfxsfxql3ps",
-  "titles": {
-    "ht": "JEZI SÈLMAN M’VLE DI-W MÈSI"
-  },
-  "hasLanguages": [
-    "ht"
-  ],
-  "stanzas": [
-    {
-      "id": "v1-ht",
-      "kind": "verse",
-      "n": 1,
-      "lang": "ht",
-      "text": "Jezi sèlman m’vle di-w mèsi \nJezi sèlman m’vle di-w mèsi\nJezi sèlman m’vle di-w mèsi\nMèsi paske ou si gran."
-    },
-    {
-      "id": "v2-ht",
-      "kind": "verse",
-      "n": 2,
-      "lang": "ht",
-      "text": "Nou pa kapab konprann amou Bon Dye pou nou\nMalgre nou transgrese lwa li yo\nLi toujou pare pou fè nou favè\nNou sèlman vle di-w mèsi Senyè."
-    }
-  ],
-  "popular": false
-},
-
 {
   "id": "sht-2tfxsfxql3ps",
   "titles": {
