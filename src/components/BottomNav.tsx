@@ -1,4 +1,3 @@
-// src/components/BottomNav.tsx
 import { NavLink } from "react-router-dom";
 import { Home, Compass, Heart, Settings as SettingsIcon, Tv, Music } from "lucide-react";
 import type { LucideIcon } from "lucide-react";

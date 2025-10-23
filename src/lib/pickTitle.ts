@@ -1,4 +1,3 @@
-// src/lib/pickTitle.ts
 import type { Song, LangCode } from "../types/song";
 
 /** Choose the best title for the current language context. */

@@ -1,4 +1,3 @@
-// src/hooks/useAmbientAudio.ts
 import { useEffect, useRef } from "react";
 import { Capacitor, type PluginListenerHandle } from "@capacitor/core";
 
