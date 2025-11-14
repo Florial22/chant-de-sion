@@ -4204,7 +4204,7 @@
       "id": "c1-ht",
       "kind": "chorus",
       "lang": "ht",
-      "text": "Menm si loraj gronde, vag yo move\nSa pa boulvèse-m\nPaske-m refijye-m nan bra Senyè mwen an\nL’ap mache avè-m e anyen pa k’atenn mwen\nPaske-m refijye-m nan bra Letènèl."
+      "text": "Menm si loraj gwonde, vag yo move\nSa pa boulvèse-m\nPaske-m refijye-m nan bra Senyè mwen an\nL’ap mache avè-m e anyen pa k’atenn mwen\nPaske-m refijye-m nan bra Letènèl."
     },
     {
       "id": "v2-ht",
@@ -4877,10 +4877,10 @@
   "popular": false
 },
 {
-  "id": "sen-xreqlcc41c0e",
+  "id": "sen-wsl7qlp6vp1f",
   "titles": {
-    "en": "THERE IS PEACE",
-    "ht": "GEN LA PÈ"
+    "en": "In The Shelter Of His Arms",
+    "ht": "Gen La pe nan mitan tet chaje"
   },
   "hasLanguages": [
     "en",
@@ -4892,40 +4892,54 @@
       "kind": "verse",
       "n": 1,
       "lang": "en",
-      "text": "When my soul was disturbed with sorrow\nWhen my heart was burdened with sin\nJesus opened his arms of mercy\nAnd tenderly took me in."
+      "text": "When my soul was disturbed with sorrow\nWhen My heart was burdened with sin\nJesus opened His arms of mercy\nAnd tenderly took me in"
     },
     {
       "id": "c1-en",
       "kind": "chorus",
       "lang": "en",
-      "text": "There is peace in the time of trouble\nThere is peace in the midst of the storm\nThere is peace tho the world be raging\nIn the shelter of his arms.\nTho the world all around be raging\nAnd it’s filled with many alarms\nTrust in Jesus and He will keep you\nIn the shelter of his arms."
+      "text": "There is peace in the time of trouble\nThere is peace in the midst of the storm\nThere is peace though the world be raging\nIn the shelter of His arms"
+    },
+    {
+      "id": "v2-en",
+      "kind": "verse",
+      "n": 2,
+      "lang": "en",
+      "text": "There are storms that we all encounter\nDo not fear they will do you no harm\nIn the Lord you will find pro tection\nIn the shelter of His arms"
+    },
+    {
+      "id": "v3-en",
+      "kind": "verse",
+      "n": 3,
+      "lang": "en",
+      "text": "Tho' the world all around be raging\nAnd it's filled with many alarms\nTrust in Jesus and He will keep you\nIn the shelter of His arms"
     },
     {
       "id": "v1-ht",
       "kind": "verse",
       "n": 1,
       "lang": "ht",
-      "text": "Nanm mwen te boulvèse ak soufrans\nLè kè-m te chaje\nJezi nan mizèrikòd li\nTe ban-m refij nan bra li."
+      "text": "Nan-m mwen te boulvèse\nak soufrans\nLè kè-m te chaje ak peche\nJezu nan mizèrikòd li\nte ban-m refuj nan bra li"
     },
     {
       "id": "c1-ht",
       "kind": "chorus",
       "lang": "ht",
-      "text": "Gen la pè nan mitan tèt chaje\nGen la pè nan mitan gwo tanpèt\nGen la pè malgre le mond pran chèn\nGen la pè nan bra li yo."
+      "text": "Gen la pè nan mitan tèt chaje\nGen la pè nan mitan gwo tanpèt\nGen la pè malgre lemon-n\npran chè-n\nGen la pè nan bra li yo"
     },
     {
       "id": "v2-ht",
       "kind": "verse",
       "n": 2,
       "lang": "ht",
-      "text": "Tanpèt sa yo ke nou ap fè fas\nPa ebranle-n yo pa kab fè-n mal\nLe Senyè va ba ou pwoteksyon\nNan refuj anba nom li."
+      "text": "Tanpèt sa yo ke nou ap fè fas\nPa ebranle-n yo pakab fè-n mal\nLe Senyè va ba ou poteksyon\nNan refuje anba non li"
     },
     {
       "id": "v3-ht",
       "kind": "verse",
       "n": 3,
       "lang": "ht",
-      "text": "Malgre tout le mond nan boulvès\nRanpli avèk bri toupatou\nKonfye-w nan Jezi li va kenbe-w\nNan refij nan bra li yo."
+      "text": "Malgre tout lemonn nan boulvès\nRanpli avèk bri tou patou\nKonfie-w nan Jezu li va kenbe-w\nNan refuje nan bra li yo"
     }
   ],
   "popular": false
@@ -5641,7 +5655,7 @@
 {
   "id": "sht-vth7z0poswqt",
   "titles": {
-    "ht": "Lè-m sonje kote mwen te ye",
+    "ht": "Gen yon plas",
     "en": "There’s a place"
   },
   "hasLanguages": [
@@ -10232,20 +10246,33 @@
     "popular": false
   },
   {
-    "id": "sht-lsww1a6n4pqb",
-    "titles": { "ht": "LI SE WA" },
-    "hasLanguages": ["ht"],
-    "stanzas": [
-      {
-        "id": "v1-ht",
-        "kind": "verse",
-        "n": 1,
-        "lang": "ht",
-        "text": "Li se Wa\nE-m konnen mwen renmen li\nLi se Wa, pa gen pi gran pase li\nTout jounen ou ka tande m’ap chante\nAlelouya li se Wa."
-      }
-    ],
-    "popular": false
+  "id": "sen-00sud2rdm6mv",
+  "titles": {
+    "en": "He ‘s my king",
+    "ht": "Li se wa’m"
   },
+  "hasLanguages": [
+    "en",
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "He ‘s my king\nOh How I love him\nHe’s my king\nThere’s no one else above him\nAll day long\nyou can hear me singing\nHalleluiah he’s my king"
+    },
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Li se wa’m\nE’konen mwen renmen li\nLi se wam\nPa gen pi gran pase li\nTout jounen\nou kap tande map chante\nAleloua li se wam"
+    }
+  ],
+  "popular": false
+},
   {
     "id": "sht-lsbc7y2e5mnt",
     "titles": { "ht": "LI SI BON POU-N KONFYE-N NAN JEZI" },
@@ -11234,20 +11261,33 @@
     "popular": false
   },
   {
-    "id": "sht-mtoujouvleale10xyz",
-    "titles": { "ht": "M’TOUJOU VLE ALE SENYÈ" },
-    "hasLanguages": ["ht"],
-    "stanzas": [
-      {
-        "id": "v1-ht",
-        "kind": "verse",
-        "n": 1,
-        "lang": "ht",
-        "text": "M’toujou vle ale Senyè\nM’toujou vle ale\nKè m’ap kriye ba ou\nM’toujou vle ale\nYo di wout la twò etwat\nMen syèl la se bi mwen\nPa kite-m deye Senyè\nM’toujou vle ale."
-      }
-    ],
-    "popular": false
+  "id": "sen-zlhpmx7egl6a",
+  "titles": {
+    "en": "I still want to go Lord",
+    "ht": "M’toujou vle ale Seye"
   },
+  "hasLanguages": [
+    "en",
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "I still want to go Lord\nI still want to go\nMy heart cries onto you Lord\nI still want to go\nSome say the road is narrow\nBut heaven is my goal\nDon’t leave me behind Lord\nI still want to go"
+    },
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "M’toujou vle ale Seye\nM’toujou vle ale\nKe’m ap kriye ba ou\nM’toujou vle ale\nYo di wout la tro etwat\nMen syel la se bu mwen\nPa kite’m deye Seye\nM’toujou vle ale"
+    }
+  ],
+  "popular": false
+},
   {
     "id": "sht-mvlefevolonteou12uvw",
     "titles": { "ht": "M’VLE FÈ VOLONTE OU SENYÈ" },
@@ -11460,7 +11500,7 @@
         "id": "c1-ht",
         "kind": "chorus",
         "lang": "ht",
-        "text": "Menm si loraj gronde, vag yo move\nSa pa boulvèse-m\nPaske-m refijye-m nan bra Senyè mwen an\nL’ap mache avè-m e anyen pa k’atenn mwen\nPaske-m refijye-m nan bra Letènèl."
+        "text": "Menm si loraj gwonde, vag yo move\nSa pa boulvèse-m\nPaske-m refijye-m nan bra Senyè mwen an\nL’ap mache avè-m e anyen pa k’atenn mwen\nPaske-m refijye-m nan bra Letènèl."
       },
       {
         "id": "v2-ht",
@@ -11488,20 +11528,24 @@
     "popular": false
   },
   {
-    "id": "sht-mesijezi-w66na",
-    "titles": { "ht": "MÈSI JEZI" },
-    "hasLanguages": ["ht"],
-    "stanzas": [
-      {
-        "id": "v1-ht",
-        "kind": "verse",
-        "n": 1,
-        "lang": "ht",
-        "text": "M’ap di-w mèsi, mèsi Jezi\nLè-m sonje kote-m te ye\nMwen di-w mèsi\nMwen te san zespwa yon jou\nJodia ou ban-m lavi\nMwen di-w mèsi, mèsi Jezi."
-      }
-    ],
-    "popular": false
+  "id": "sht-opemo2x4p475",
+  "titles": {
+    "ht": "Map diw mesi"
   },
+  "hasLanguages": [
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Map diw mesi,mesi Seye\nLem sonje kotem te ye\nMap diw mesi\nMwen te san espwa yon jou\nJodi a ou banm lavi\nMap diw mesi,mesi Seye"
+    }
+  ],
+  "popular": false
+},
   {
     "id": "sht-mesijezimesi-rp9k1",
     "titles": { "ht": "MÈSI JEZI, MÈSI" },
@@ -12077,20 +12121,24 @@
     "popular": false
   },
   {
-    "id": "sht-mwenjwennreponsla-5k2md",
-    "titles": { "ht": "MWEN JWENN REPONS LA" },
-    "hasLanguages": ["ht"],
-    "stanzas": [
-      {
-        "id": "v1-ht",
-        "kind": "verse",
-        "n": 1,
-        "lang": "ht",
-        "text": "Mwen jwenn repons la lè m’ap priye\nAk Kris sovè a\nMwen jwenn wout la\nSolèy la briye sou mwen chak jou\nMwenn jwenn repons la\nLè m’ap priye."
-      }
-    ],
-    "popular": false
+  "id": "sht-2myt332cgw0c",
+  "titles": {
+    "ht": "Mwen Jwenn repons la"
   },
+  "hasLanguages": [
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Mwen Jwenn repons la nan la priyè\nChak fwa map priye\nmwen jwenn wout la\nSolèy la briye pou mwen chak jou\nMwen jwenn repons la nan la priye"
+    }
+  ],
+  "popular": false
+},
   {
     "id": "sht-mwenjwennsamtebezwen-8r4pz",
     "titles": { "ht": "MWEN JWENN SA-M TE BEZWEN" },
@@ -13141,7 +13189,7 @@
   },
   {
     "id": "sht-napmontepiwo-4r8vg",
-    "titles": { "ht": "N’AP MONTE PI WO" },
+    "titles": { "ht": "M’AP MONTE PI WO" },
     "hasLanguages": ["ht"],
     "stanzas": [
       {
@@ -13149,7 +13197,7 @@
         "kind": "verse",
         "n": 1,
         "lang": "ht",
-        "text": "N’ap monte pi wo avan tenèb pran latè\nN’ap monte pi wo avan tenèb pran latè\nN’ap monte pi wo avan tenèb pran latè\nN’ap monte nan twazyèm syèl\nAvan tenèb pran latè."
+        "text": "M’ap monte pi wo avan tenèb pran latè\nM’ap monte pi wo avan tenèb pran latè\nM’ap monte pi wo avan tenèb pran latè\nM’ap monte nan twazyèm syèl\nAvan tenèb pran latè."
       }
     ],
     "popular": false
@@ -14928,7 +14976,7 @@
       "kind": "verse",
       "n": 1,
       "lang": "ht",
-      "text": "M’rekonesan e m pa bliye kote Jesus\nte jwen n mwen nan fon labou\npeche nanm mwen tape neye\nmen yon bon jou l’te deside lonje\nmen’l pou’l te sove’m men jodi a\nm’jwen yon kote po’m kache ."
+      "text": "M’rekonesan e m pa bliye kote jezi\nte jwen n mwen nan fon labou\npeche nanm mwen tape neye\nmen yon bon jou l’te deside lonje\nmen’l pou’l te sove’m men jodi a\nm’jwen yon kote pou’m kache ."
     }
   ],
   "popular": false
@@ -19506,34 +19554,6 @@
     "popular": false
   },
   {
-    "id": "sht-kisamye-7p6wc",
-    "titles": { "ht": "KISA-M YE" },
-    "hasLanguages": ["ht"],
-    "stanzas": [
-      {
-        "id": "v1-ht",
-        "kind": "verse",
-        "n": 1,
-        "lang": "ht",
-        "text": "Le’m raple’m de pawol li yo\nli pap janm kite’m\nret fidel e mwen va ba ou la vi etenel\nmwen mande ki moun mwen ye\npou’m eritye sel pitit Bondieu\nl’lute pou mwen justan yo genyen’l\nki mou’n mwen ye"
-      },
-      {
-        "id": "c1-ht",
-        "kind": "chorus",
-        "lang": "ht",
-        "text": "Ki sam ye pou yon wa\nte vin mouri pou mwen\nki sam ye pou mwen priye\npa volontem ke volontel\nrepons sa mwen pa janm konen\npouki li renmenm konsa\nsou bwa kalve l te mouri pou mwen\nki moun mwen ye"
-      },
-      {
-        "id": "v2-ht",
-        "kind": "verse",
-        "n": 2,
-        "lang": "ht",
-        "text": "Le-m sonje koman ‘l te vin\nbyen lwen nan la glwa\nl’te vin abite nan mitan\nyon moun tankoum\nli soufri wont ak dezone\nsou bwa kalve li te pran plas mwen\nmwen poze tet mwen kesyon sa\nki moun mwen ye"
-      }
-    ],
-    "popular": false
-  },
-  {
     "id": "sht-kisanvafe-8d3pk",
     "titles": { "ht": "KI SA N’VA FÈ NAN JOU SA" },
     "hasLanguages": ["ht"],
@@ -21955,8 +21975,1144 @@
     }
   ],
   "popular": false
-}
+},
+{
+  "id": "sht-jju4ku7n2esy",
+  "titles": {
+    "ht": "Li Se Jewova"
+  },
+  "hasLanguages": [
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Li se Jewova\nLi s'on gran Bondye\nLi pa egoyis menm jan ak lòt dye yo\nLi voye Jezi vin mouri pou nou\nAvan li monte, li ban n yon ministè"
+    },
+    {
+      "id": "c1-ht",
+      "kind": "chorus",
+      "lang": "ht",
+      "text": "Sa yo mare sou tè a, yo mare nan syèl la\nSa yo lage sou tè a, yo lage nan syèl la\nSa yo touche delivre\nE menm avèg yo jwenn lavi\nSa yo beni, beni (bis)"
+    },
+    {
+      "id": "v2-ht",
+      "kind": "verse",
+      "n": 2,
+      "lang": "ht",
+      "text": "Vin tand'on bèl istwa\nJezi te vini\nLi pas'on ti tan nan mitan bèt sovaj yo\nGlwa a Dye pou nou, l te peye pri a\nAvan li ale, li ban n yon ministè"
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sen-hd1gb56x501c",
+  "titles": {
+    "en": "Fill this sanctuary"
+  },
+  "hasLanguages": [
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "Lord we come into your house\nsometimes weak in despair\nBut we have a hope within\nthat you will meet us there\nWhen we’re weak you are strong\nLord we come before your throne\nHear our prayer for we know we’re not alone"
+    },
+    {
+      "id": "c1-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "Fill this sanctuary\nwith your spirit Lord\nRain down on us,\na cleansing shower\nAs you move in our mist\nfill us with your mighty power\nfill this place fill our hearts\nthis very hour"
+    },
+    {
+      "id": "v2-en",
+      "kind": "verse",
+      "n": 2,
+      "lang": "en",
+      "text": "Give us grace for everyday\nKeep us we would stray\nWhen you are always there\nOur burdens you will bear\nWhen we’re weak you are strong\nLord we come before the throne\nHear our prayer for we know\nwe’re not alone"
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sen-sskklkaudajd",
+  "titles": {
+    "en": "Hold me close"
+  },
+  "hasLanguages": [
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "Lord I come to you\nlet my heart be changed, renewed\nflowing from the grace\nthat l’ve found in you\nLord I come to know\nthe weaknesses I see in me\nwill be stripped away\nby the power of your love"
+    },
+    {
+      "id": "c1-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "Hold me close let your love surround me\nbring me near draw me to your side\nand as I wait I’ll rise up like the eagle\nand l will soar with you\nyour spirit lids me on\nin the power of your love"
+    },
+    {
+      "id": "v2-en",
+      "kind": "verse",
+      "n": 2,
+      "lang": "en",
+      "text": "Lord unveil my eyes\nlet me see you face to face\nThe knowledge of your love\nAs you live in me\nLord renew my mind\nAs your will unfolds me in my life\nin living every day\nby the power of you love"
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sht-wlsz1hox11se",
+  "titles": {
+    "ht": "Anko e anko"
+  },
+  "hasLanguages": [
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Si Jesus ta retire gras li sou mwen\ndi’m kote’m tap prale\ne kisa’m tap fe\nsi’m pa kontinye swiv nye a\ndi’m tanpri kot destin’m ta ye"
+    },
+    {
+      "id": "c1-ht",
+      "kind": "chorus",
+      "lang": "ht",
+      "text": "Anko e anko l’te fome’m e li fe’m we\nnan imaj li l’te fome ajil la\nyon veso done mwen ye jodia\ne tout sa akoz Jesus m’nan\nki pat jete ajil la"
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sht-cy38hy6g51ae",
+  "titles": {
+    "ht": "O alon jwa"
+  },
+  "hasLanguages": [
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "O alon jwa ki te vin nan mwen\nLem te panse mwen te lib\nLe sove a pran mwen\nLi pase bwal nan koum\nO alon jwa ki te vin nan mwen"
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sht-ymk128oo2pmr",
+  "titles": {
+    "ht": "Di’m kisa Jezu pa ye pou ou"
+  },
+  "hasLanguages": [
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Di’m kisa Jezu pa ye pou ou\ndi’m kisa Jezu pa ye pou ou\nli se proteksyon nan vi ou li se abri pou’w kache\nLi se Mikael pou defann ou nan danje\nLi se guerise le’w malad li se lajwa le’w nan tristes\nli se pe le’w boulvese e’l se fos ou le’w febli\nLi se zanmi‘w ki si fidel li se pouvwaye la vi ‘w\nDi’m kisa Jezu pa ye pou ou"
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sht-8ytbzjgcdeyu",
+  "titles": {
+    "ht": "BonDye gon rezon"
+  },
+  "hasLanguages": [
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "M-te koube-m pou-m priye Jezu\nBezwen-m yo te anpil\nMwen te mande le Senyè\npou-l ban-m fòs jodi a\nE mwen te santi sentespri-l\npale nan fon kè mwen\nGen yon rezon Bon Dieu fè-l konsa"
+    },
+    {
+      "id": "c1-ht",
+      "kind": "chorus",
+      "lang": "ht",
+      "text": "BonDye gon rezon pou tout bagay\nke-l kite fèt Li fè-m dispoze\npou swiv volonte-l\nMap priye e rete fè-m\npou chak tès ke-m va pase\nGen yon rezon Bondye fel konsa"
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sht-wqqqf41zggcg",
+  "titles": {
+    "ht": "Demen nou anle"
+  },
+  "hasLanguages": [
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Mache nan dufe ya\nDe men nou anle\nMache nan fos lyon an\nDe men nou anle\nElmi an deye do nou\nLi pres pou devore nou\nO non de Jezi\nNap mache demen nou anle"
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sht-v2x021pw7idj",
+  "titles": {
+    "ht": "Si’w gen pou janbe gro dlo"
+  },
+  "hasLanguages": [
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Nan jou ki pi sonb yo\nnan jou ki pi nwa yo\nnan le ki pi ame yo\nBondieu promet poul la\nbo kote’l gen yon zanmi\nprezans li ap akonye’w\nlap avek ou se sa parol la di"
+    },
+    {
+      "id": "c1-ht",
+      "kind": "chorus",
+      "lang": "ht",
+      "text": "Si’w gen pou janbe gro dlo\nyo map avek ou\nsi’w gen pou traverse vale yo\nmap avek ou\nsi’w gen pou pase nan dufe\nflam yo pap boule’w\nmwen se Jesus\nmwen se Bondieu Sove’w"
+    },
+    {
+      "id": "v2-ht",
+      "kind": "verse",
+      "n": 2,
+      "lang": "ht",
+      "text": "Bondieu se boukliye nou\nli se fos nou le’m ta vle febli\nnan moman angwas yo li promet poul la\nmenm si la te ta tranble\nnan Jesus map rete tout konfyans mwen\nle montay yo monte pi wo\nJesus’m nan toujou la"
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sht-nj3hisjnpt87",
+  "titles": {
+    "ht": "Nanm mwen beni Bondye"
+  },
+  "hasLanguages": [
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Nanm mwen beni Bondye\nNanm mwen beni Bondye\nEt tout sa ki nan nanm mwen beni Bondye\nLi padone tout peche’m yo\nLi geri tout maladi’m yo\nNanm mwen beni Bondye\nBeni Bondye"
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sht-graqxqjblmod",
+  "titles": {
+    "ht": "Nan presans ou"
+  },
+  "hasLanguages": [
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Nan presans ou\nSe la nou tout rasanble\nNan presans ou\nSe la nou pep la kanpe\nNou exalte ou Senye\nNou ba ou remesiman\nTout aksyon an pwoklame\nOu gran"
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sen-o8hazz4unjs7",
+  "titles": {
+    "en": "Above all"
+  },
+  "hasLanguages": [
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "Above all powers, above all kings\nAbove all nature,\nand all created things\nAbove all wisdom,\nand all the ways of man\nYou were here before the world began"
+    },
+    {
+      "id": "v2-en",
+      "kind": "verse",
+      "n": 2,
+      "lang": "en",
+      "text": "Above all kingdoms, above all thrones\nAbove all wonders\nThe world has ever known\nAbove all wealth\nand treasures of the Earth\nThere's no way to measure what\nYou're worth"
+    },
+    {
+      "id": "c1-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "Crucified, laid behind a stone\nYou lived to die,\nrejected and alone\nLike a rose,\ntrampled on the ground\nYou took the fall,\nand thought of me Above all"
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sen-xb09xewolm7i",
+  "titles": {
+    "en": "What a mighty God we serve",
+    "ht": "A la yon Dieu pwisan nap sevi"
+  },
+  "hasLanguages": [
+    "en",
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "What a mighty God we serve\nWhat a mighty God we serve\nAngels bow before Him\nHeaven and earth adore Him\nWhat a mighty God we serve."
+    },
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "A la yon Dieu pwisan nap sevi\nA la yon Dieu pwisan nap sevi\nzanj yo koube devan li\nsyel la ak te a adore li\nA la yon Dieu pwisan nap sevi"
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sht-l5rcbv6c3wu1",
+  "titles": {
+    "ht": "Alelouya nenpot jan"
+  },
+  "hasLanguages": [
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Alelouya nenpot jan\nmwen pap kite traka\nlage’m nan tristes\nninpot kisa la vi pote\nmap leve tet mwen map chante\nAlelouya nenpot jan"
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sht-6g0i8p1hd7vn",
+  "titles": {
+    "ht": "Ann pran tout zam Bondye yo"
+  },
+  "hasLanguages": [
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Ann pran tout zam Bondye yo\ndispoze pou’n sevi’l\npou’n pare pou enmi an defanse li\nkris te ban nou pouvwa\nsou pwisyans dragon an\nnap ranpote viktwa\nninpot koman"
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sen-6ize0v3tl1z0",
+  "titles": {
+    "en": "Let us praise the lord",
+    "ht": "An nou  louwe bondye"
+  },
+  "hasLanguages": [
+    "en",
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "O we thank you for your kindness,\nwe thank you for your love,\nWe have been in heavenly places,\nfelt blessings from above;\nWe've been sharing all the good things,\nthe family can afford,\nLet's just turn our hearts toward heaven\nand praise the Lord."
+    },
+    {
+      "id": "c1-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "Let's just praise the Lord!\nPraise the Lord!\nLet's just lift our hearts to heaven\nand praise the Lord;\nLet's just praise the Lord!\nPraise the Lord!\nLet's just lift our hearts to heaven\nand praise the Lord!"
+    },
+    {
+      "id": "v2-en",
+      "kind": "verse",
+      "n": 2,
+      "lang": "en",
+      "text": "Just the precious name of Jesus\nis worthy of our praise,\nLet us bow our knees before Him,\nour hands to heaven raise;\nWhen He comes in clouds of glory,\nwith Him to ever reign,\nLet's just lift our happy voices,\nand praise His name."
+    },
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Mwen remèsye ou pou bonte-w,\nmèsi pou amou ou\nNou te nan lye selès la\nNou te santi benediksyon-w yo\nNou te pataje bon bagay yo\nPouvwa bezwen fanmi an\nAn-n prezantel lwanj yo e lwe non li"
+    },
+    {
+      "id": "c1-ht",
+      "kind": "chorus",
+      "lang": "ht",
+      "text": "An nou lwe Bon Dieu, lwe Bon Dieu\nAn-n leve men nou vè le syèl\nE lwe Bon Dieu\nAn nou lwe Bon Dieu, lwe Bon Dieu\nAn-n leve men nou vè le syèl\nE lwe Bon Dieu"
+    },
+    {
+      "id": "v2-ht",
+      "kind": "verse",
+      "n": 2,
+      "lang": "ht",
+      "text": "Sèlman non presye de Jezu\nki diy pou nou lwe\nAn nou koube devan li\nleve men nou vè le syèl\nLè-l vini nan nye de glwa\npou nou renye ak li\nAn nou leve vwa-n e lwe sen non li"
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sht-hm9aa6z8azmt",
+  "titles": {
+    "ht": "O, O, ansyen Roch la"
+  },
+  "hasLanguages": [
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Lè mwen santi-m atriste\nSou chemen la vi sila\nLè tout bagay parèt nwa\nLè ou pa genyen espwa\nMwen kon-n vlé dekouraje\né men-m demiyone\nSi se pate ansyen Roch la\nMwen ta abandone."
+    },
+    {
+      "id": "c1-ht",
+      "kind": "chorus",
+      "lang": "ht",
+      "text": "O, O, ansyen Roch la\nOu men-m ki pa jan-m chanje\nO, O, ansyen Roch la\nKache mwen pou jouk la fen."
+    },
+    {
+      "id": "v2-ht",
+      "kind": "verse",
+      "n": 2,
+      "lang": "ht",
+      "text": "Dlo nan je ak kè kontan\nSou chemen la vi sila\nPa genyen twò gwo espwa\nPou separe youn ak lòt\nSi se pate ansyen Roch la\nKoman mwen ta fè souri\nNan yon mon-n kouvri ak ògèy\nMwen ta dezespere."
+    },
+    {
+      "id": "v3-ht",
+      "kind": "verse",
+      "n": 3,
+      "lang": "ht",
+      "text": "Kache mwen, kache-m souple\nAnba manto la gras la\nMen-m lè pye-m ta vle glise\nTanpri pa kite-m tonbe\nOu se yon ranpa pou nan-m mwen\nOu se sous konsolasyon-m\nMwen pa gen yon lòt apwi\nKilòt pi bon Zanmi."
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sht-ob1igo23sodu",
+  "titles": {
+    "ht": "Aprè lavi sa fi-n pase"
+  },
+  "hasLanguages": [
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Byen kèk fwa eprèv yo anpil E\nyon lè pye-m yo fatige Juskaske\nm-santi m-vle panche pou-m\ntombe Men gen you men dous\nkap kondwi-m Se men sa ki\nkenbe mwen fè-m Juskaske\nmwen kapab rive nan jou sa"
+    },
+    {
+      "id": "c1-ht",
+      "kind": "chorus",
+      "lang": "ht",
+      "text": "Aprè lavi sa fi-n pase e tout\nfado-m yo fi-n ale E map pral\nmonte sou mò-n nan byen wo\nPou-m kapab gade ti vil sa ke\nsovè-m nan te prepare Ban-m la\nfwa pou-m kapab rive nan jou sa"
+    },
+    {
+      "id": "v2-ht",
+      "kind": "verse",
+      "n": 2,
+      "lang": "ht",
+      "text": "Mwen men sèl mwen pap kap\nrive E m-konnen li la lap\nede-m Lape tande priyè-m yo\nlè-m priye-l M-toujou fè-m e\nkenbe la fwa Pawòl yo\nm-tande li pale Sèlman yon ti\ntan ki rete pou jou sa"
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sht-ro16iinwc22q",
+  "titles": {
+    "ht": "M Sipoze"
+  },
+  "hasLanguages": [
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "M Sipoze Bondye\nte chèche nan syèl\nLi pa te jwenn pèson kite vle\nPoul te bay suprem sakrifis nesese\nPou l te bay vi l pou te sove mwen ak ou."
+    },
+    {
+      "id": "c1-ht",
+      "kind": "chorus",
+      "lang": "ht",
+      "text": "O! Si se pat pou yon plas\nYo rele mòn kalvè\nE Si se pa te sou bwa lakwa\nSi se pat pou nonm sa yo rele Jezi a\nWi pou toujou mwen menm ak ou ta pèdi."
+    },
+    {
+      "id": "v2-ht",
+      "kind": "verse",
+      "n": 2,
+      "lang": "ht",
+      "text": "M si kontan\nli te aksepte bwè koup anmè\nMalgre priyè: Pere lese-l pase lwen l\nM si kontan\nli pa t rele zanj nan syèl yo\nPou vin wete\nklou k t ap toumante men l yo."
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sht-pjj90l20c8rk",
+  "titles": {
+    "ht": "Mèsi"
+  },
+  "hasLanguages": [
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Mesi se konsa’m kap eksprime’m\nMesi menm sim konnen’l pap janm sifi\nResevwa ti mo sa pou mwen\nKi soti nan fon ke mwen\nMesi Senye mesi"
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sht-0ipg1wjo27sr",
+  "titles": {
+    "ht": "Mwen gen yon zye kap veye sou mwen"
+  },
+  "hasLanguages": [
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Mwen gen yon zye kap veye sou mwen \nle map monte montay yo\nMwen gen yon zye kap veye sou mwen \nle map travese plen yo\nle’m kouche le’m leve\nSove m nan pap janm domi\nMwen gen yon zye kap veye sou mwen\ntou le jou"
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sht-3rq4x0530pcy",
+  "titles": {
+    "ht": "Mwen vle van’n tout sa’m posede"
+  },
+  "hasLanguages": [
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Mwen pap bay pou anyen\nPlas mwen jwen nan Bondieu\nMwen pap bay pou anyen verite ki si presye\nMwen ta vle jwen’n pou tout la vi’m\nVerite ‘l ki si presye\nKote lespri’l ap koule san mezi"
+    },
+    {
+      "id": "c1-ht",
+      "kind": "chorus",
+      "lang": "ht",
+      "text": "Mwen vle van’n tout sa’m posede\nPou lespri li\nNon pa gen anyen ke’m pap bay\npou royom sa\nSe gras li k-fem la l-chwazi mwen\nPri-l peye ya vo la pe’n\nWi mwen vle van’n\nTout sa mwen posede"
+    }
+  ],
+  "popular": false
+},
 
+{
+  "id": "sht-k71worpzg5e5",
+  "titles": {
+    "ht": "Fe mwen rive",
+    "en": "See us through"
+  },
+  "hasLanguages": [
+    "ht",
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Anpil vi bezwen repare\nGen blese k-bezwen geri\nDoule k-bezwen soulaje\nGen anpil ke ki brize\nAnpil nanm bezwen geri\nVoye zye-w geri –n kounyea\nPandan nap ret tann ou\nNap kwe nan ou pou fe nou rive"
+    },
+    {
+      "id": "c1-ht",
+      "kind": "chorus",
+      "lang": "ht",
+      "text": "Fe nou rive Seye fe nou rive\nLoraj ap gronde ke nou ap brize\nSeye fe-n rive\nOu toujou fidel juska la fin\nOu ka fe fe-l yon lot fwa anko\nNap ret tann ou nap kwe nan ou\npou fe nou rive"
+    },
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "Many lives need to be mended\nMany wounds must be stitched up\nMany pains to be soothed\nMany hearts are broken in two\nMany souls need some healing\nLord look down and heal us now\nMeanwhile we’ll wait on you\nwe’ll trust in you\nto see us through"
+    },
+    {
+      "id": "c1-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "See us through, oh lord\nSee us through\nThe storm is raging\nOur heart is breaking,\nLord see us through\nYou’re always faithful til the end\nJust do it one more time again\nWe’ll wait on you, we’ll trust in you\nTo see us through"
+    }
+  ],
+  "popular": false
+},
+
+{
+  "id": "sht-m87gk5fco02r",
+  "titles": {
+    "ht": "Gade mwen se yon kwa pou mwen"
+  },
+  "hasLanguages": [
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Ogey mwen yo ape gonflem\nJalousim yo ape sechem\nIpokrisim yo ap detwi\nLanmou nan kem pou ou\nMalis mwen yo ap grandi\nInikitem yo m pa manke\nInterem yo bouche zyem yo fre mw\nPou mw pa we Bondye nan fin tan sa"
+    },
+    {
+      "id": "c1-ht",
+      "kind": "chorus",
+      "lang": "ht",
+      "text": "Gade mwen se yon kwa pou mwen\nLut map genyen pou mwen mennen\nSe avek tet mwen mape batay\nMap komanse Kris va edem\nAnyen pap janm dekourage m\nFok mwen rive kanmenm yon jou\nMap kwe Bondye va ban mwen fos\nGenyen-k rive fok mwen rive"
+    },
+    {
+      "id": "v2-ht",
+      "kind": "verse",
+      "n": 2,
+      "lang": "ht",
+      "text": "Mw gen anpil bet na la vim\nChak moman youn manifeste\nMesi Bondye pou epe pawol ou\nOu ban mw\nKap tuye la che nan la vim\nMap ret sou kwa pou mw mouri\nSe sel chemin poum gen la vi Etenel\nMap kwe Bondye poum pa fe wout la anvin"
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sen-nrsa8ifh900e",
+  "titles": {
+    "en": "I Belong here",
+    "ht": "M ‘fon pati nan le ko de Kris"
+  },
+  "hasLanguages": [
+    "en",
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "Now if bear the scar of where you’ve been\nAnd feel you’ll never fit in\nHe ‘ll make you forget\nall your pain and regret\nJust give it all to him\nForgetting those things which lie behind\nReaching forth we press towards the prize"
+    },
+    {
+      "id": "c1-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "I belong to the body of Christ\nHallelujah he changed my whole life\nThis race I’ve begun\nWith joy let me run\nFor I know what my Lord has done"
+    },
+    {
+      "id": "v2-en",
+      "kind": "verse",
+      "n": 2,
+      "lang": "en",
+      "text": "But as for me, my hope was almost gone,\nMy steps had well slipped\nBroken I came, just a flickering flame\nA fire that had almost gone out\nWith tender hands he bound up all my\nwounds\nWashed away all my sin’s residue\nI am free at last from the chains of my past\nNow I can stand and say:"
+    },
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Ak men damou’l\nL’bande tout blesi’m yo\nLave peche pase m’yo\nKounya m’libere\nDe chenn ki te mare’m\nKounya m’ka kanpe e di:"
+    },
+    {
+      "id": "c1-ht",
+      "kind": "chorus",
+      "lang": "ht",
+      "text": "M ‘fon pati nan le ko de Kris\nAlelouya l’te chanje tout vi’m\nKous sa m’komanse\nAvek jwa m’va kouri-l\nKa m’konen sa Bondye’m nan fe"
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sht-ukkvvf2s96q3",
+  "titles": {
+    "ht": "Mwen konn yon moun ki kapab",
+    "en": "I know a man who can"
+  },
+  "hasLanguages": [
+    "ht",
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Mwen pa ka pran yon ke ki brize\ne poum fel rebon anko\nmen mwen konn yon nom ki kapab\nmwen pa ka pran yon ke plen peche\npoum vin fel blan ke la nej\nmen mwen konn yon nom ki kapab"
+    },
+    {
+      "id": "c1-ht",
+      "kind": "chorus",
+      "lang": "ht",
+      "text": "Genyen’k rele’l sove redanmte lezom\nMwen ‘m rele’l Jezi li se pi bon\nzanmi’m\nLe’w santi peson paka ede’w\ne la vi’w preske fini\nmen mwen konn yon non ki kapab"
+    },
+    {
+      "id": "v2-ht",
+      "kind": "verse",
+      "n": 2,
+      "lang": "ht",
+      "text": "Mwen pakab mache sou dlo profon yo\nPou’m kalme lame move\nmen mwen konn yo nonm ki kapab\nMwen pa ka ouvri zye aveg\ne poum fe bwate mache\nmen mwen konn yon nonm ki kapab"
+    },
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "I can't take a heart that's broken,\nMake it over again\nBut I know a man who can\nI can't take a soul that's sin sick make\nit white as the snow\nBut I know a man who can"
+    },
+    {
+      "id": "c1-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "Some call him savior\nthe redeemer of all men\nI call him Jesus\nfor he's my dearest friend\nIf you feel that no one loves you\nand your life is out of hand\nI know a man who can"
+    },
+    {
+      "id": "v2-en",
+      "kind": "verse",
+      "n": 2,
+      "lang": "en",
+      "text": "I can't walk upon the waters\nor calm the trouble sea\nBut I know a man who can\nAnd I can't cause blind eyes to open\nOr make the lame to walk again\nBut I know a man who can"
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sen-4yg1ry5d95tw",
+  "titles": {
+    "en": "It is no secret",
+    "ht": "Se pa yon sekre"
+  },
+  "hasLanguages": [
+    "en",
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "Another day is through\nSomeone slipped and fell\nWas that someone you?\nYou may have longed for added\nstrength\nYour courage to renew\nDo not be disheartened\nI have news for you"
+    },
+    {
+      "id": "c1-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "It is no secret what God can do\nWhat he has done for others\nHe'll do for you\nWith arms wide open\nHe'll pardon you\nIt is no secret what God can do"
+    },
+    {
+      "id": "v2-en",
+      "kind": "verse",
+      "n": 2,
+      "lang": "en",
+      "text": "There is no night, for in His light\nYou'll never walk alone\nYou'll always feel at home wherever you\nmay roam\nThere is no power can conquer you\nWhile God is on your side\nTake Him at His promise\nDon't run away and hide"
+    },
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Tan sa ap pase si vit\njou yo ap disparèt\nYon moun glise tonbe,\nèske moun sa se ou?\nWap tan-n pou fòs ou vini\ne-w pèdi kouraj\nPiga-w pèdi la fwa\nmap met fòs nan ou"
+    },
+    {
+      "id": "c1-ht",
+      "kind": "chorus",
+      "lang": "ht",
+      "text": "Se pa yon sekrè sa Dieu ka fè\nSa-l fè pou lòt yo lap fè-l pou ou\nAk de bra-l ouvri lap ret tann nou\nPa genyen sekrè sa Dieu ka fè"
+    },
+    {
+      "id": "v2-ht",
+      "kind": "verse",
+      "n": 2,
+      "lang": "ht",
+      "text": "Pa genyen nwit ak lumyiè\nOu pap jan-m mache sèl\nWa santi-w lakay ou nenpòt kote ou ye\nPa gen pouvwa kap aten-n ou\nLè Dieu bò kote-w\nJus tan-n pwomès li pa kouri al kache"
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sen-apl5h3uxmf2e",
+  "titles": {
+    "en": "It’s the love",
+    "ht": "amou sila"
+  },
+  "hasLanguages": [
+    "en",
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "It’s the love of the body of Christ\nIt’s the love that I feel deep inside\nAnd it’s making me whole, once again\nAnd it’s making me love you\nlike a friend\nAnd it’s making me love you til the end\nThis is his love"
+    },
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "amou sila se sel nan ko a\npou-m jwenn li\namou sa mwen santi-l\nnan fon nanm mwen\ne li fe-m santi byen yon lot fwa\nLi fe-m renmen-w kon yon bon zanmi\nlap fe-m toujou renmen-w juska la fin\nse amou divin li ye"
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sht-owa0wi6fodew",
+  "titles": {
+    "ht": "Jezi ou se gran avoka’m"
+  },
+  "hasLanguages": [
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Jezi ou se gran avoka’m\nkap plede koz mwen yo\nDosye’m yo nan men ou segne\nse ou k’ plede pou mwen\nOu toujou pran defans pou mwen\nMen’m le m’pa merite l\nMwen lage tout bagay nan men ou\nPlede pou m’kab sove"
+    },
+    {
+      "id": "c1-ht",
+      "kind": "chorus",
+      "lang": "ht",
+      "text": "Ou plede pou’m gen lavi,\nOu plede pou’m pa mouri\nOu plede men’m ak papaw\nle’l ta vle fini ave’m\nOu plede pou’m gen lavi\nOu plede pou’m la toujou\nMesi gran avokam ou plede koz mwen yo"
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sen-ii912ogxiicz",
+  "titles": {
+    "en": "Just hold on"
+  },
+  "hasLanguages": [
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "They sent for Jesus, your friend's about to die\nBut tarried He on yet behind\nSo they laid Lazarus in the tomb\nAnd they said their last good-byes\nThen coming down the road was Jesus\nRight on time."
+    },
+    {
+      "id": "c1-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "Just hold on my child\nBecause He's not too far away\nAnd He knows your needs before you pray\nSo when your feet are weary\nFrom those mountains you have climbed\nLook ahead, here comes Jesus\nRight on time"
+    },
+    {
+      "id": "v2-en",
+      "kind": "verse",
+      "n": 2,
+      "lang": "en",
+      "text": "I've struggled through life's deserts\nThey were so hot and dry\nTill it seemed all hope was gone\nAnd I would die\nAnd I wondered where was He\nIs He still a friend of mine\nThen coming down the road was Jesus\nRight on time"
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sht-5s7uda5trxah",
+  "titles": {
+    "ht": "Kite ‘m youn nan fanmi an"
+  },
+  "hasLanguages": [
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Kite ‘m youn nan fanmi an\ndebarase’m de lache\nnan tanp ou a Seye\nAdam pa gen plas li\nkite ‘m you’n nan lespri\nma jwenn rout Bondye\nlese ‘m mache lese’m mache\nlese’m mache nan lespri"
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sht-ec7lotmlcebf",
+  "titles": {
+    "ht": "Kris gen konpasyon pou mwen",
+    "en": "He had compassion on me"
+  },
+  "hasLanguages": [
+    "ht",
+    "en"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Kris gen konpasyon pou mwen\nli touche zyem kounyea’m we\nli geri pye’m pou’m ka mache\nnan wout la\nKris gen konpasyon pou mwen\nnan tout peche li delivre’m\nO glwa a Dieu\nKris gen konpasyon pou mwen"
+    },
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "He had compassion on me\nHe touched my eyes and now I see\nHe touched my feet\nand now I walk in his way\nHe had compassion on me\nHe touched my heart and now I’m free\nPraise the Lord\nHe had compassion on me"
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sen-gqghcx0rw7y1",
+  "titles": {
+    "en": "something beautiful",
+    "ht": "Kris fe yon bagay"
+  },
+  "hasLanguages": [
+    "en",
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "Something beautiful, \nsomething good\nAll my confusion, he understood\nAll I had to offer him was\nbrokenness and strife\nBut he made something beautiful\nof my life."
+    },
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Kris fe yon bagay, yon bon bagay\nTout konfuzyon mwen yo\nlite konprann yo\nTout sam te gen poum ofri\nte brize e kraze\nMen kris fe yon bagay\nMeveye nan lavim"
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sht-jpeyww6h8twu",
+  "titles": {
+    "ht": "Kris pa kitem mankew"
+  },
+  "hasLanguages": [
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Kris pa kitem mankew\nfem wew nan lepouz ou\nchak fwa mwen fin feb kenbem bo\nkotew\nle chemen an fe nwa\ntoujou fe mwen we\nmwen gen’w bagay nan vi mwen\nse ou k te fel pou mwen"
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sht-imoo9kafsn4w",
+  "titles": {
+    "ht": "Kwè nan Bon Dieu"
+  },
+  "hasLanguages": [
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Kwè nan Bon Dieu nan doulè-w\nnan traka-w yo\nKè li touche avèk tristès ou yo\nLage sousi-w ak fado ou yo sou li\nKite yo la, kite yo la"
+    },
+    {
+      "id": "c1-ht",
+      "kind": "chorus",
+      "lang": "ht",
+      "text": "Kwè nan Bon Dieu li sou trò-n nan\nKwè nan Bon Dieu zye-l sou pitit li yo\nN-pap jan-m fayi fò-n gen viktwa\nKwè nan Bon Dieu,\nkwè nan Bon Dieu"
+    },
+    {
+      "id": "v2-ht",
+      "kind": "verse",
+      "n": 2,
+      "lang": "ht",
+      "text": "Kwè nan Bon Dieu lè priyè-w yo san\nrepons\nL-pap jan-m bliye promès li te fè a\nTan-n le Senyè kwè pawòl li gen\npisans\nKwè nan Bon Dieu lap repon-n nou"
+    },
+    {
+      "id": "v3-ht",
+      "kind": "verse",
+      "n": 3,
+      "lang": "ht",
+      "text": "Kwè nan Bon Dieu lè-w pou kont\nou sou wout la\nLi konnen byen tout\neprèv ou genyen\nPitit li yo pap jamè sèl sou wout la\nKwè nan Bon Dieu,\nkwè nan Bon Dieu"
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sht-gfa284aolhcu",
+  "titles": {
+    "ht": "La vi mwen map konsakrel pou lwe jezi"
+  },
+  "hasLanguages": [
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "La vi mwen map konsakrel poulwe jezi\nTout lavim map konsakrel pouli\nMwen vle yon sakrifis ki si agreyab\nTout lavim map konsakrel pouli"
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sht-w5yy6jdqzxn3",
+  "titles": {
+    "ht": "O redwi mwen pi piti"
+  },
+  "hasLanguages": [
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Le ogey mwen\nta vle monte tankou vag yo\nImilye lespri’m segne\nPou’m pa pe di plas mwen\nO redwi mwen pi piti\nPase yon grenn montad."
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sht-mcbyplml2fs5",
+  "titles": {
+    "ht": "Legliz pral restore"
+  },
+  "hasLanguages": [
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Legliz pral restore eskew\nprepare\nGlwa Bondye pral briye nan\nyon pep chwazi\nGlwa denye mezon an va pi\ngran ke premye a\nSe sa ki te ekri fok li a konpli"
+    }
+  ],
+  "popular": false
+},
+
+{
+  "id": "sen-w7bj0omy2h1m",
+  "titles": {
+    "en": "Praise his holy name",
+    "ht": "Louwe sen nom li"
+  },
+  "hasLanguages": [
+    "en",
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-en",
+      "kind": "verse",
+      "n": 1,
+      "lang": "en",
+      "text": "Praise the Lord from whom all blessings flow.\nHe has washed and made me white as snow.\nI'm redeemed from all my sin and shame.\nNow and forever praise His holy name!"
+    },
+    {
+      "id": "c1-en",
+      "kind": "chorus",
+      "lang": "en",
+      "text": "Praise His holy name.\nPraise His holy name.\nTo God be the glory now and forever.\nPraise His holy name!"
+    },
+    {
+      "id": "v2-en",
+      "kind": "verse",
+      "n": 2,
+      "lang": "en",
+      "text": "God is great and greatly to be praised.\nAbove all others let His name be raised.\nSaints and angels evermore proclaim\nthat He alone is worthy,\nPraise His holy name. Chorus"
+    },
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Louwe sen nom li\nLouwe sen nom li\nTOUT glwa \nse pou Bondye\nKounya e pou toutan\nLouwe sen nom li"
+    }
+  ],
+  "popular": false
+}
 
       
  ]
