@@ -23112,6 +23112,189 @@
     }
   ],
   "popular": false
+},
+{
+  "id": "sht-bocmb8cb88uz",
+  "titles": {
+    "ht": "Le-m sonje bienfe Bondieu yo"
+  },
+  "hasLanguages": [
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Langaj mwen pap janm sifi \npou mwen ta esplike\npou sa bondye fe pou mwen\n se bagay inesplikab\nmwen pat anyen men li pran mwen, \nli banm chans poum vin kichoy\nmvle kriye avek tout fos mwen \npoum di sa leseye fe"
+    },
+    {
+      "id": "c1-ht",
+      "kind": "chorus",
+      "lang": "ht",
+      "text": "Le-m sonje bienfe Bondieu yo\nm-ta chante m-ta chante\nle-m sonje mirak li fe yo\nm-ta danse m-ta danse\nle-m sonje mevey yo nan vi-m\nm-ta kouri rele byen fo\npou-m di le mond antye\ngade sa le Seye fe"
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sht-zejup9s5ra8u",
+  "titles": {
+    "ht": "Nou kanpe sou yon tè ki sen"
+  },
+  "hasLanguages": [
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Lè-m tap antre nan tanp la\nm-santi prezans li\nE-m konnen nan plas sa\nnou kap jwen-n lamou\nSa se tanp kot Bon Dieu Jeova abite\nKa nou kanpe nan prezans li\nsou tè ki sen"
+    },
+    {
+      "id": "c1-ht",
+      "kind": "chorus",
+      "lang": "ht",
+      "text": "Nou kanpe sou yon tè ki sen\nE-n konnen n-antoure avèk\nzanj Bon Dieu\nAn nou lwe Jezu Kounyea\nNou kanpe nan prezans li\nsou yon tè ki sen"
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sht-vwlot32gup92",
+  "titles": {
+    "ht": "Map aprann repoze"
+  },
+  "hasLanguages": [
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Li fe chemen pou pep li yo\npou yo kab janbe lame rouj la\nli louvri pot prizon\nprizonye yo soti\nleve menw anle loue le Seye\nlap louvre pot la pou ou"
+    },
+    {
+      "id": "c1-ht",
+      "kind": "chorus",
+      "lang": "ht",
+      "text": "Map aprann repoze apiye sou Jesus\nli se zanmim e li se guid mwen\nmap aprann repoze apiye sou Jesus\nmwen konen si mwen kwe nan li\nlap pran swen mwen"
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sht-5bp31mhee0cu",
+  "titles": {
+    "ht": "Li leve mwen le’m tonbe dekouraje"
+  },
+  "hasLanguages": [
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Li leve mwen le’m tonbe dekouraje\nli ban’m espwa le’m ta vle dezespere\ne le’m panse m’te poukont mwen\nnan febles mwen yo avek amou’l\nli montre mwen li toujou la"
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sht-iq5t8umoakze",
+  "titles": {
+    "ht": "Li se jibile a"
+  },
+  "hasLanguages": [
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Li se jibile ya, li se vre repo\nLi pote delivrans, avek libete\nLage kaptif yo\nanvwaye prisonye yo\nLi se jibile ya, li se vre repo"
+    }
+  ],
+  "popular": false
+}
+,
+{
+  "id": "sht-0vbc2ifemo4i",
+  "titles": {
+    "ht": "Li se tout bagay nan la vi mwen"
+  },
+  "hasLanguages": [
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Leve je’w byen wo\nwa viv yon vi\nou pat janm konnen avan\nLeve je’w byen wo\ne ou va we la glwa le Seye a"
+    },
+    {
+      "id": "c1-ht",
+      "kind": "chorus",
+      "lang": "ht",
+      "text": "Li se tout bagay nan la vi mwen\nli se lumye kap klere rout mwen\nnan ou seye m’jwen tout sa m bezwen\nede m monte pi wo pou ‘ m we fas ou"
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sht-il5c1tjaqng9",
+  "titles": {
+    "ht": "Li se tout bagay"
+  },
+  "hasLanguages": [
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Li se tout bagay\nse tout bagay pou mwen\nLi se tout bagay\nse tout bagay pou mwen\nli se manmanm papam fre mwen\nse mwen\nse tout bagay pou mwen"
+    }
+  ],
+  "popular": false
+},
+{
+  "id": "sht-fbz6vda3ntnc",
+  "titles": {
+    "ht": "Gwo dlo met vini"
+  },
+  "hasLanguages": [
+    "ht"
+  ],
+  "stanzas": [
+    {
+      "id": "v1-ht",
+      "kind": "verse",
+      "n": 1,
+      "lang": "ht",
+      "text": "Li te restore m nan vale\nse sou bon fondman mwen\netabli\nMwen pa gen poum pe te danje a\nSe sou Jesus mwen kanpe"
+    },
+    {
+      "id": "c1-ht",
+      "kind": "chorus",
+      "lang": "ht",
+      "text": "Gwo dlo met vini pou pote m ale\ngwo van met sou soufle\npou ravajem\nkanta pou mwen menm\nm’pap deplase\nsou rok solid la m kanpe"
+    }
+  ],
+  "popular": false
 }
 
       
